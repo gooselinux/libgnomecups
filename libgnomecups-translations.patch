@@ -1,0 +1,3261 @@
+--- libgnomecups-0.2.3/configure.in	2010-07-20 12:21:23.722906425 +0530
++++ libgnomecups-0.2.3/configure.in	2010-07-20 12:22:53.174040870 +0530
+@@ -60,7 +60,7 @@ 
+ AC_PROG_INTLTOOL([0.20])
+ 
+ dnl Add the languages which your application supports here.
+-ALL_LINGUAS="ar bg ca cs da de dz en_CA en_GB es eu fi fr gl gu hi hr hu is it ja lt mk mr nb ne nl oc pa pl pt pt_BR rw sk sl sq sr sr@Latn sv th tr uk vi wa zh_CN zh_HK zh_TW"
++ALL_LINGUAS="ar as bg bn_IN ca cs da de dz en_CA en_GB es eu fi fr gl gu hi hr hu is it ja lt kn ko ml mk mr nb ne nl oc or pa pl pt pt_BR ru rw sk sl sq sr sr@Latn sv ta te th tr uk vi wa zh_CN zh_HK zh_TW"
+ AM_GLIB_GNU_GETTEXT
+ AM_GLIB_DEFINE_LOCALEDIR([GNOMELOCALEDIR])
+ 
+--- libgnomecups-0.2.3/po/as.po	1970-01-01 05:30:00.000000000 +0530
++++ libgnomecups-0.2.3/po/as.po	2010-07-20 12:23:39.419931177 +0530
+@@ -0,0 +1,68 @@ 
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++# Amitakhya Phukan <aphukan@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: el 6\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
++"PO-Revision-Date: 2010-04-12 16:09+0530\n"
++"Last-Translator: Amitakhya Phukan <aphukan@redhat.com>\n"
++"Language-Team: Assamese <fedora-trans-as@redhat.com>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: Lokalize 1.0\n"
++"Plural-Forms: nplurals=2; plural=n != 1;\n"
++
++#: ../libgnomecups/gnome-cups-printer.c:93
++msgid "Ready"
++msgstr "প্ৰস্তুত"
++
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
++msgid "Printing"
++msgstr "মুদ্ৰিত হৈ আছে"
++
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
++msgid "Paused"
++msgstr "স্থগিত"
++
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
++msgid "Unknown"
++msgstr "অজ্ঞাত"
++
++#: ../libgnomecups/gnome-cups-printer.c:1202
++#, c-format
++msgid "%s: %s"
++msgstr "%s: %s"
++
++#: ../libgnomecups/gnome-cups-queue.c:43
++msgid "Pending"
++msgstr "অসমাপ্ত"
++
++#: ../libgnomecups/gnome-cups-queue.c:46
++msgid "Stopped"
++msgstr "বন্ধ"
++
++#: ../libgnomecups/gnome-cups-queue.c:47
++msgid "Canceled"
++msgstr "বাতিল কৰা হৈছে"
++
++#: ../libgnomecups/gnome-cups-queue.c:48
++msgid "Aborted"
++msgstr "পৰিত্যক্ত"
++
++#: ../libgnomecups/gnome-cups-queue.c:49
++msgid "Completed"
++msgstr "সম্পূৰ্ণ"
++
+--- libgnomecups-0.2.3/po/bn_IN.po	1970-01-01 05:30:00.000000000 +0530
++++ libgnomecups-0.2.3/po/bn_IN.po	2010-07-20 12:23:39.420914756 +0530
+@@ -0,0 +1,67 @@ 
++# translation of libgnomecups.po.master.po to Bengali INDIA
++# Bengali (India) translation of libgnomecups.
++# Copyright (C) 2009 libgnomecups's COPYRIGHT HOLDER
++# This file is distributed under the same license as the libgnomecups package.
++#
++# Runa Bhattacharjee <runab@redhat.com>, 2009.
++msgid ""
++msgstr ""
++"Project-Id-Version: libgnomecups.po.master\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
++"PO-Revision-Date: 2009-06-17 12:19+0530\n"
++"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
++"Language-Team: Bengali INDIA <discuss@lists.ankur.org.in>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms: nplurals=2; plural=(n != 1);\n"
++
++#: ../libgnomecups/gnome-cups-printer.c:93
++msgid "Ready"
++msgstr "প্রস্তুত"
++
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
++msgid "Printing"
++msgstr "প্রিন্ট করা হচ্ছে"
++
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
++msgid "Paused"
++msgstr "স্থগিত"
++
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
++msgid "Unknown"
++msgstr "অজানা"
++
++#: ../libgnomecups/gnome-cups-printer.c:1202
++#, c-format
++msgid "%s: %s"
++msgstr "%s: %s"
++
++#: ../libgnomecups/gnome-cups-queue.c:43
++msgid "Pending"
++msgstr "অপেক্ষারত"
++
++#: ../libgnomecups/gnome-cups-queue.c:46
++msgid "Stopped"
++msgstr "বন্ধ"
++
++#: ../libgnomecups/gnome-cups-queue.c:47
++msgid "Canceled"
++msgstr "বাতিল"
++
++#: ../libgnomecups/gnome-cups-queue.c:48
++msgid "Aborted"
++msgstr "পরিত্যক্ত"
++
++#: ../libgnomecups/gnome-cups-queue.c:49
++msgid "Completed"
++msgstr "সমাপ্ত"
+--- libgnomecups-0.2.3/po/de.po	2010-07-20 12:21:23.696048421 +0530
++++ libgnomecups-0.2.3/po/de.po	2010-07-20 12:23:40.233911792 +0530
+@@ -4,12 +4,12 @@ 
+ # libgnomecups package.
+ # Christian Neumair <chris@gnome-de.org>, 2003.
+ # Hendrik Richter <hendi@gnome-de.org>, 2005.
+-# 
++#
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: libgnomecups\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2005-01-12 17:17+0100\n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
+ "PO-Revision-Date: 2005-07-04 19:59+0200\n"
+ "Last-Translator: Hendrik Richter <hendi@gnome-de.org>\n"
+ "Language-Team: German <gnome-de@gnome.org>\n"
+@@ -17,223 +17,185 @@ 
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ 
+-#: libgnomecups/gnome-cups-printer.c:86
++#: ../libgnomecups/gnome-cups-printer.c:93
+ msgid "Ready"
+ msgstr "Bereit"
+ 
+-#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
+ msgid "Printing"
+ msgstr "Drucken"
+ 
+-#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
+ msgid "Paused"
+ msgstr "Unterbrochen"
+ 
+-#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+-#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+-#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+-#: libgnomecups/gnome-cups-queue.c:185
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
+ msgid "Unknown"
+ msgstr "Unbekannt"
+ 
+-#: libgnomecups/gnome-cups-printer.c:881
++#: ../libgnomecups/gnome-cups-printer.c:1202
+ #, c-format
+ msgid "%s: %s"
+ msgstr "%s: %s"
+ 
+-#: libgnomecups/gnome-cups-queue.c:43
++#: ../libgnomecups/gnome-cups-queue.c:43
+ msgid "Pending"
+ msgstr "Ausstehend"
+ 
+-#: libgnomecups/gnome-cups-queue.c:46
++#: ../libgnomecups/gnome-cups-queue.c:46
+ msgid "Stopped"
+ msgstr "Gestoppt"
+ 
+-#: libgnomecups/gnome-cups-queue.c:47
++#: ../libgnomecups/gnome-cups-queue.c:47
+ msgid "Canceled"
+ msgstr "Abgebrochen"
+ 
+-#: libgnomecups/gnome-cups-queue.c:48
++#: ../libgnomecups/gnome-cups-queue.c:48
+ msgid "Aborted"
+ msgstr "Storniert"
+ 
+-#: libgnomecups/gnome-cups-queue.c:49
++#: ../libgnomecups/gnome-cups-queue.c:49
+ msgid "Completed"
+ msgstr "Fertiggestellt"
+ 
+-#: libgnomecups/gnome-cups-request.c:66
+-msgid "Success"
+-msgstr "Erfolg"
+-
+-#: libgnomecups/gnome-cups-request.c:67
+-msgid "Success, some attributes were ignored"
+-msgstr "Erfolg, mindestens ein Attribut wurde ignoriert"
+-
+-#: libgnomecups/gnome-cups-request.c:68
+-msgid "Success, some attributes conflicted"
+-msgstr "Erfolg, einige Attribute riefen einen Konflikt hervor"
+-
+-#: libgnomecups/gnome-cups-request.c:69
+-msgid "Success, ignored subscriptions"
+-msgstr "Erfolg, Abonnements ignoriert"
+-
+-#: libgnomecups/gnome-cups-request.c:70
+-msgid "Success, ignored notifications"
+-msgstr "Erfolg, Benachrichtigungen ignoriert"
+-
+-#: libgnomecups/gnome-cups-request.c:71
+-msgid "Success, too many events"
+-msgstr "Erfolg, zu viele Ereignisse"
++#~ msgid "Success"
++#~ msgstr "Erfolg"
++
++#~ msgid "Success, some attributes were ignored"
++#~ msgstr "Erfolg, mindestens ein Attribut wurde ignoriert"
++
++#~ msgid "Success, some attributes conflicted"
++#~ msgstr "Erfolg, einige Attribute riefen einen Konflikt hervor"
++
++#~ msgid "Success, ignored subscriptions"
++#~ msgstr "Erfolg, Abonnements ignoriert"
++
++#~ msgid "Success, ignored notifications"
++#~ msgstr "Erfolg, Benachrichtigungen ignoriert"
++
++#~ msgid "Success, too many events"
++#~ msgstr "Erfolg, zu viele Ereignisse"
+ 
+ # CHECK
+-#: libgnomecups/gnome-cups-request.c:72
+-msgid "Success, cancel subscription"
+-msgstr "Erfolg, Abonnement kündigen"
+-
+-#: libgnomecups/gnome-cups-request.c:76
+-msgid "Bad request"
+-msgstr "Fehlerhafte Anfrage"
+-
+-#: libgnomecups/gnome-cups-request.c:77
+-msgid "Forbidden"
+-msgstr "Verweigert"
+-
+-#: libgnomecups/gnome-cups-request.c:78
+-msgid "The client has not been authenticated"
+-msgstr "Ihr Client wurde nicht legitimiert"
+-
+-#: libgnomecups/gnome-cups-request.c:79
+-msgid "You are not authorized to perform this operation"
+-msgstr "Sie sind nicht zur Durchführung dieser Operation legitimiert"
+-
+-#: libgnomecups/gnome-cups-request.c:80
+-msgid "This operation cannot be completed"
+-msgstr "Diese Operation kann nicht fertiggestellt werden"
+-
+-#: libgnomecups/gnome-cups-request.c:81
+-msgid "Timeout"
+-msgstr "Zeitüberschreitung"
+-
+-#: libgnomecups/gnome-cups-request.c:82
+-msgid "The requested file was not found"
+-msgstr "Die gewünschte Datei wurde nicht gefunden"
+-
+-#: libgnomecups/gnome-cups-request.c:83
+-msgid "The requested resource no longer exists"
+-msgstr "Die gewünschte Ressource existiert nicht mehr"
+-
+-#: libgnomecups/gnome-cups-request.c:84
+-msgid "The request was too large"
+-msgstr "Die Anfrage war zu groß"
+-
+-#: libgnomecups/gnome-cups-request.c:85
+-msgid "The request was too long"
+-msgstr "Die Anfrage war zu lang"
+-
+-#: libgnomecups/gnome-cups-request.c:86
+-msgid "The document format is not supported"
+-msgstr "Das Dokumentenformat wird nicht unterstützt"
+-
+-#: libgnomecups/gnome-cups-request.c:87
+-msgid "The value or attributes in this request are not supported"
+-msgstr "Der Wert oder die Attribute in dieser Anfrage werden nicht unterstützt"
+-
+-#: libgnomecups/gnome-cups-request.c:88
+-msgid "The URI scheme is not supported"
+-msgstr "Das Adressschema wird nicht unterstützt"
+-
+-#: libgnomecups/gnome-cups-request.c:89
+-msgid "The requested character set is not supported"
+-msgstr "Der gewünschte Zeichensatz wird nicht unterstützt"
+-
+-#: libgnomecups/gnome-cups-request.c:90
+-msgid "There were conflicting attributes in the request"
+-msgstr "In der Anfrage tauchten Attribute auf, die einen Konflikt hervorrufen"
+-
+-#: libgnomecups/gnome-cups-request.c:91
+-msgid "Compression is not supported"
+-msgstr "Kompression wird nicht unterstützt"
+-
+-#: libgnomecups/gnome-cups-request.c:92
+-msgid "There was a compression error"
+-msgstr "Es ist ein Kompressionsfehler aufgetreten"
+-
+-#: libgnomecups/gnome-cups-request.c:93
+-msgid "There was an error in the format of the document"
+-msgstr "Es ist ein Fehler im Dokumentenformat aufgetreten"
+-
+-#: libgnomecups/gnome-cups-request.c:94
+-msgid "There was an error accessing the document"
+-msgstr "Es ist ein Fehler beim Zugriff auf das Dokument aufgetreten"
+-
+-#: libgnomecups/gnome-cups-request.c:95
+-msgid "Some attributes could not be set"
+-msgstr "Einige Attribute konnten nicht gesetzt werden"
+-
+-#: libgnomecups/gnome-cups-request.c:96
+-msgid "All subscriptions were ignored"
+-msgstr "Alle Abonnements wurden ignoriert"
+-
+-#: libgnomecups/gnome-cups-request.c:97
+-msgid "Too many subscriptions"
+-msgstr "Zu viele Abonnements"
+-
+-#: libgnomecups/gnome-cups-request.c:98
+-msgid "All notifications were ignored."
+-msgstr "Alle Benachrichtigungen wurden ignoriert."
+-
+-#: libgnomecups/gnome-cups-request.c:99
+-msgid "A print support file was not found."
+-msgstr "Es wurde keine Druckunterstützungsdatei gefunden."
+-
+-#: libgnomecups/gnome-cups-request.c:104
+-msgid "Internal server error"
+-msgstr "Interner Server-Fehler"
+-
+-#: libgnomecups/gnome-cups-request.c:105
+-msgid "Operation not supported"
+-msgstr "Operation nicht unterstützt"
+-
+-#: libgnomecups/gnome-cups-request.c:106
+-msgid "Service unavailable"
+-msgstr "Dienst nicht verfügbar"
+-
+-#: libgnomecups/gnome-cups-request.c:107
+-msgid "Version not supported"
+-msgstr "Version nicht unterstützt"
+-
+-#: libgnomecups/gnome-cups-request.c:108
+-msgid "Device error"
+-msgstr "Gerätefehler"
+-
+-#: libgnomecups/gnome-cups-request.c:109
+-msgid "Temporary error"
+-msgstr "Temporärer Fehler"
+-
+-#: libgnomecups/gnome-cups-request.c:110
+-msgid "The printer is not accepting jobs"
+-msgstr "Der Drucker nimmt keine Aufträge an"
+-
+-#: libgnomecups/gnome-cups-request.c:111
+-msgid "The printer is busy"
+-msgstr "Der Drucker ist belegt"
+-
+-#: libgnomecups/gnome-cups-request.c:112
+-msgid "The job has been canceled"
+-msgstr "Ihr Auftrag wurde abgebrochen"
+-
+-#: libgnomecups/gnome-cups-request.c:113
+-msgid "Multiple-document jobs are not supported"
+-msgstr "Aufträge mit mehreren Dokumenten werden nicht unterstützt"
+-
+-#: libgnomecups/gnome-cups-request.c:114
+-msgid "The printer is deactivated"
+-msgstr "Der Drucker ist deaktiviert"
+-
+-#: libgnomecups/gnome-cups-request.c:119
+-msgid "Redirected to another site"
+-msgstr "Auf andere Seite weitergeleitet"
+-
+-#: libgnomecups/gnome-cups-request.c:125
+-msgid "Unknown error"
+-msgstr "Unbekannter Fehler"
++#~ msgid "Success, cancel subscription"
++#~ msgstr "Erfolg, Abonnement kündigen"
++
++#~ msgid "Bad request"
++#~ msgstr "Fehlerhafte Anfrage"
++
++#~ msgid "Forbidden"
++#~ msgstr "Verweigert"
++
++#~ msgid "The client has not been authenticated"
++#~ msgstr "Ihr Client wurde nicht legitimiert"
++
++#~ msgid "You are not authorized to perform this operation"
++#~ msgstr "Sie sind nicht zur Durchführung dieser Operation legitimiert"
++
++#~ msgid "This operation cannot be completed"
++#~ msgstr "Diese Operation kann nicht fertiggestellt werden"
++
++#~ msgid "Timeout"
++#~ msgstr "Zeitüberschreitung"
++
++#~ msgid "The requested file was not found"
++#~ msgstr "Die gewünschte Datei wurde nicht gefunden"
++
++#~ msgid "The requested resource no longer exists"
++#~ msgstr "Die gewünschte Ressource existiert nicht mehr"
++
++#~ msgid "The request was too large"
++#~ msgstr "Die Anfrage war zu groß"
++
++#~ msgid "The request was too long"
++#~ msgstr "Die Anfrage war zu lang"
++
++#~ msgid "The document format is not supported"
++#~ msgstr "Das Dokumentenformat wird nicht unterstützt"
++
++#~ msgid "The value or attributes in this request are not supported"
++#~ msgstr ""
++#~ "Der Wert oder die Attribute in dieser Anfrage werden nicht unterstützt"
++
++#~ msgid "The URI scheme is not supported"
++#~ msgstr "Das Adressschema wird nicht unterstützt"
++
++#~ msgid "The requested character set is not supported"
++#~ msgstr "Der gewünschte Zeichensatz wird nicht unterstützt"
++
++#~ msgid "There were conflicting attributes in the request"
++#~ msgstr ""
++#~ "In der Anfrage tauchten Attribute auf, die einen Konflikt hervorrufen"
++
++#~ msgid "Compression is not supported"
++#~ msgstr "Kompression wird nicht unterstützt"
++
++#~ msgid "There was a compression error"
++#~ msgstr "Es ist ein Kompressionsfehler aufgetreten"
++
++#~ msgid "There was an error in the format of the document"
++#~ msgstr "Es ist ein Fehler im Dokumentenformat aufgetreten"
++
++#~ msgid "There was an error accessing the document"
++#~ msgstr "Es ist ein Fehler beim Zugriff auf das Dokument aufgetreten"
++
++#~ msgid "Some attributes could not be set"
++#~ msgstr "Einige Attribute konnten nicht gesetzt werden"
++
++#~ msgid "All subscriptions were ignored"
++#~ msgstr "Alle Abonnements wurden ignoriert"
++
++#~ msgid "Too many subscriptions"
++#~ msgstr "Zu viele Abonnements"
++
++#~ msgid "All notifications were ignored."
++#~ msgstr "Alle Benachrichtigungen wurden ignoriert."
++
++#~ msgid "A print support file was not found."
++#~ msgstr "Es wurde keine Druckunterstützungsdatei gefunden."
++
++#~ msgid "Internal server error"
++#~ msgstr "Interner Server-Fehler"
++
++#~ msgid "Operation not supported"
++#~ msgstr "Operation nicht unterstützt"
++
++#~ msgid "Service unavailable"
++#~ msgstr "Dienst nicht verfügbar"
++
++#~ msgid "Version not supported"
++#~ msgstr "Version nicht unterstützt"
++
++#~ msgid "Device error"
++#~ msgstr "Gerätefehler"
++
++#~ msgid "Temporary error"
++#~ msgstr "Temporärer Fehler"
++
++#~ msgid "The printer is not accepting jobs"
++#~ msgstr "Der Drucker nimmt keine Aufträge an"
++
++#~ msgid "The printer is busy"
++#~ msgstr "Der Drucker ist belegt"
++
++#~ msgid "The job has been canceled"
++#~ msgstr "Ihr Auftrag wurde abgebrochen"
++
++#~ msgid "Multiple-document jobs are not supported"
++#~ msgstr "Aufträge mit mehreren Dokumenten werden nicht unterstützt"
++
++#~ msgid "The printer is deactivated"
++#~ msgstr "Der Drucker ist deaktiviert"
++
++#~ msgid "Redirected to another site"
++#~ msgstr "Auf andere Seite weitergeleitet"
++
++#~ msgid "Unknown error"
++#~ msgstr "Unbekannter Fehler"
+--- libgnomecups-0.2.3/po/es.po	2010-07-20 12:21:23.692048325 +0530
++++ libgnomecups-0.2.3/po/es.po	2010-07-20 12:23:40.633920036 +0530
+@@ -7,7 +7,7 @@ 
+ msgstr ""
+ "Project-Id-Version: es\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2004-12-14 09:19-0500\n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
+ "PO-Revision-Date: 2004-01-04 09:34+0100\n"
+ "Last-Translator: Francisco Javier F. Serrador <serrador@cvs.gnome.org>\n"
+ "Language-Team: Spanish <traductores@es.gnome.org>\n"
+@@ -16,223 +16,183 @@ 
+ "Content-Transfer-Encoding: 8bit\n"
+ "X-Generator: KBabel 1.0.2\n"
+ 
+-#: libgnomecups/gnome-cups-printer.c:86
++#: ../libgnomecups/gnome-cups-printer.c:93
+ msgid "Ready"
+ msgstr "Preparado"
+ 
+-#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
+ msgid "Printing"
+ msgstr "Imprimiendo"
+ 
+-#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
+ msgid "Paused"
+ msgstr "Pausado"
+ 
+-#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+-#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+-#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+-#: libgnomecups/gnome-cups-queue.c:185
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
+ msgid "Unknown"
+ msgstr "Desconocido"
+ 
+-#: libgnomecups/gnome-cups-printer.c:881
++#: ../libgnomecups/gnome-cups-printer.c:1202
+ #, c-format
+ msgid "%s: %s"
+ msgstr "%s: %s"
+ 
+-#: libgnomecups/gnome-cups-queue.c:43
++#: ../libgnomecups/gnome-cups-queue.c:43
+ msgid "Pending"
+ msgstr "Pendiente"
+ 
+-#: libgnomecups/gnome-cups-queue.c:46
++#: ../libgnomecups/gnome-cups-queue.c:46
+ msgid "Stopped"
+ msgstr "Detenido"
+ 
+-#: libgnomecups/gnome-cups-queue.c:47
++#: ../libgnomecups/gnome-cups-queue.c:47
+ msgid "Canceled"
+ msgstr "Cancelado"
+ 
+-#: libgnomecups/gnome-cups-queue.c:48
++#: ../libgnomecups/gnome-cups-queue.c:48
+ msgid "Aborted"
+ msgstr "Abortado"
+ 
+-#: libgnomecups/gnome-cups-queue.c:49
++#: ../libgnomecups/gnome-cups-queue.c:49
+ msgid "Completed"
+ msgstr "Terminado"
+ 
+-#: libgnomecups/gnome-cups-request.c:66
+-msgid "Success"
+-msgstr "Éxito"
+-
+-#: libgnomecups/gnome-cups-request.c:67
+-msgid "Success, some attributes were ignored"
+-msgstr "Éxito, algunos atributos han sido ignorados"
++#~ msgid "Success"
++#~ msgstr "Éxito"
++
++#~ msgid "Success, some attributes were ignored"
++#~ msgstr "Éxito, algunos atributos han sido ignorados"
+ 
+-#: libgnomecups/gnome-cups-request.c:68
+ #, fuzzy
+-msgid "Success, some attributes conflicted"
+-msgstr "Éxito, algunos atributos entraron en conflicto"
++#~ msgid "Success, some attributes conflicted"
++#~ msgstr "Éxito, algunos atributos entraron en conflicto"
++
++#~ msgid "Success, ignored subscriptions"
++#~ msgstr "Éxito, suscripciones ignoradas"
++
++#~ msgid "Success, ignored notifications"
++#~ msgstr "Éxito, notificaciones ignoradas"
++
++#~ msgid "Success, too many events"
++#~ msgstr "Éxito, demasiados eventos"
++
++#~ msgid "Success, cancel subscription"
++#~ msgstr "Éxito, cancelar suscripción"
++
++#~ msgid "Bad request"
++#~ msgstr "Solicitud inválida"
++
++#~ msgid "Forbidden"
++#~ msgstr "Prohibido"
++
++#~ msgid "The client has not been authenticated"
++#~ msgstr "El cliente ho ha sido autenticado"
++
++#~ msgid "You are not authorized to perform this operation"
++#~ msgstr "No está autorizado ha hacer esta operación"
++
++#~ msgid "This operation cannot be completed"
++#~ msgstr "Esta operación o puede ser completada"
++
++#~ msgid "Timeout"
++#~ msgstr "Expiración de plazo"
++
++#~ msgid "The requested file was not found"
++#~ msgstr "El archivo solicitado no se ha encontrado"
++
++#~ msgid "The requested resource no longer exists"
++#~ msgstr "El recurso solicitado ya no existe"
++
++#~ msgid "The request was too large"
++#~ msgstr "La solicitud era demasiado grande"
++
++#~ msgid "The request was too long"
++#~ msgstr "La solicitud era demasiado larga"
++
++#~ msgid "The document format is not supported"
++#~ msgstr "El formato del documento no está soportado"
++
++#~ msgid "The value or attributes in this request are not supported"
++#~ msgstr "El valor o los atributos en esta solicitud no están soportados"
++
++#~ msgid "The URI scheme is not supported"
++#~ msgstr "El esquema de URI no está soportado"
++
++#~ msgid "The requested character set is not supported"
++#~ msgstr "El carácter solicitado no está soportado"
++
++#~ msgid "There were conflicting attributes in the request"
++#~ msgstr "Hubo atributos en conflicto en la solicitud"
++
++#~ msgid "Compression is not supported"
++#~ msgstr "Compresión no soportada"
++
++#~ msgid "There was a compression error"
++#~ msgstr "Hubo un error de compresión"
++
++#~ msgid "There was an error in the format of the document"
++#~ msgstr "Hubo un error en el formato del documento"
++
++#~ msgid "There was an error accessing the document"
++#~ msgstr "Hubo un error al acceder al documento"
++
++#~ msgid "Some attributes could not be set"
++#~ msgstr "Algunos atributos no se han podido establecer"
++
++#~ msgid "All subscriptions were ignored"
++#~ msgstr "Todas las suscripciones fueron ignoradas"
++
++#~ msgid "Too many subscriptions"
++#~ msgstr "Demasiadas suscripciones"
++
++#~ msgid "All notifications were ignored."
++#~ msgstr "todas las notificaciones fueron ignoradas."
++
++#~ msgid "A print support file was not found."
++#~ msgstr "Un archivo de soporte dela impresión no fue encontrado."
++
++#~ msgid "Internal server error"
++#~ msgstr "Error interno del servidor"
++
++#~ msgid "Operation not supported"
++#~ msgstr "Operación no soportada"
++
++#~ msgid "Service unavailable"
++#~ msgstr "Servicio no disponible"
++
++#~ msgid "Version not supported"
++#~ msgstr "Versión no soportada"
++
++#~ msgid "Device error"
++#~ msgstr "Error del dispositivo"
++
++#~ msgid "Temporary error"
++#~ msgstr "Error temporal"
++
++#~ msgid "The printer is not accepting jobs"
++#~ msgstr "La impresora no está aceptando trabajos"
++
++#~ msgid "The printer is busy"
++#~ msgstr "La impresora está ocupada"
++
++#~ msgid "The job has been canceled"
++#~ msgstr "El trabajo ha sido cancelado"
++
++#~ msgid "Multiple-document jobs are not supported"
++#~ msgstr "Los trabajos de múltiples documentos no están soportados"
++
++#~ msgid "The printer is deactivated"
++#~ msgstr "La impresora está desactivada"
++
++#~ msgid "Redirected to another site"
++#~ msgstr "Redirigido a otro sitio"
+ 
+-#: libgnomecups/gnome-cups-request.c:69
+-msgid "Success, ignored subscriptions"
+-msgstr "Éxito, suscripciones ignoradas"
+-
+-#: libgnomecups/gnome-cups-request.c:70
+-msgid "Success, ignored notifications"
+-msgstr "Éxito, notificaciones ignoradas"
+-
+-#: libgnomecups/gnome-cups-request.c:71
+-msgid "Success, too many events"
+-msgstr "Éxito, demasiados eventos"
+-
+-#: libgnomecups/gnome-cups-request.c:72
+-msgid "Success, cancel subscription"
+-msgstr "Éxito, cancelar suscripción"
+-
+-#: libgnomecups/gnome-cups-request.c:76
+-msgid "Bad request"
+-msgstr "Solicitud inválida"
+-
+-#: libgnomecups/gnome-cups-request.c:77
+-msgid "Forbidden"
+-msgstr "Prohibido"
+-
+-#: libgnomecups/gnome-cups-request.c:78
+-msgid "The client has not been authenticated"
+-msgstr "El cliente ho ha sido autenticado"
+-
+-#: libgnomecups/gnome-cups-request.c:79
+-msgid "You are not authorized to perform this operation"
+-msgstr "No está autorizado ha hacer esta operación"
+-
+-#: libgnomecups/gnome-cups-request.c:80
+-msgid "This operation cannot be completed"
+-msgstr "Esta operación o puede ser completada"
+-
+-#: libgnomecups/gnome-cups-request.c:81
+-msgid "Timeout"
+-msgstr "Expiración de plazo"
+-
+-#: libgnomecups/gnome-cups-request.c:82
+-msgid "The requested file was not found"
+-msgstr "El archivo solicitado no se ha encontrado"
+-
+-#: libgnomecups/gnome-cups-request.c:83
+-msgid "The requested resource no longer exists"
+-msgstr "El recurso solicitado ya no existe"
+-
+-#: libgnomecups/gnome-cups-request.c:84
+-msgid "The request was too large"
+-msgstr "La solicitud era demasiado grande"
+-
+-#: libgnomecups/gnome-cups-request.c:85
+-msgid "The request was too long"
+-msgstr "La solicitud era demasiado larga"
+-
+-#: libgnomecups/gnome-cups-request.c:86
+-msgid "The document format is not supported"
+-msgstr "El formato del documento no está soportado"
+-
+-#: libgnomecups/gnome-cups-request.c:87
+-msgid "The value or attributes in this request are not supported"
+-msgstr "El valor o los atributos en esta solicitud no están soportados"
+-
+-#: libgnomecups/gnome-cups-request.c:88
+-msgid "The URI scheme is not supported"
+-msgstr "El esquema de URI no está soportado"
+-
+-#: libgnomecups/gnome-cups-request.c:89
+-msgid "The requested character set is not supported"
+-msgstr "El carácter solicitado no está soportado"
+-
+-#: libgnomecups/gnome-cups-request.c:90
+-msgid "There were conflicting attributes in the request"
+-msgstr "Hubo atributos en conflicto en la solicitud"
+-
+-#: libgnomecups/gnome-cups-request.c:91
+-msgid "Compression is not supported"
+-msgstr "Compresión no soportada"
+-
+-#: libgnomecups/gnome-cups-request.c:92
+-msgid "There was a compression error"
+-msgstr "Hubo un error de compresión"
+-
+-#: libgnomecups/gnome-cups-request.c:93
+-msgid "There was an error in the format of the document"
+-msgstr "Hubo un error en el formato del documento"
+-
+-#: libgnomecups/gnome-cups-request.c:94
+-msgid "There was an error accessing the document"
+-msgstr "Hubo un error al acceder al documento"
+-
+-#: libgnomecups/gnome-cups-request.c:95
+-msgid "Some attributes could not be set"
+-msgstr "Algunos atributos no se han podido establecer"
+-
+-#: libgnomecups/gnome-cups-request.c:96
+-msgid "All subscriptions were ignored"
+-msgstr "Todas las suscripciones fueron ignoradas"
+-
+-#: libgnomecups/gnome-cups-request.c:97
+-msgid "Too many subscriptions"
+-msgstr "Demasiadas suscripciones"
+-
+-#: libgnomecups/gnome-cups-request.c:98
+-msgid "All notifications were ignored."
+-msgstr "todas las notificaciones fueron ignoradas."
+-
+-#: libgnomecups/gnome-cups-request.c:99
+-msgid "A print support file was not found."
+-msgstr "Un archivo de soporte dela impresión no fue encontrado."
+-
+-#: libgnomecups/gnome-cups-request.c:104
+-msgid "Internal server error"
+-msgstr "Error interno del servidor"
+-
+-#: libgnomecups/gnome-cups-request.c:105
+-msgid "Operation not supported"
+-msgstr "Operación no soportada"
+-
+-#: libgnomecups/gnome-cups-request.c:106
+-msgid "Service unavailable"
+-msgstr "Servicio no disponible"
+-
+-#: libgnomecups/gnome-cups-request.c:107
+-msgid "Version not supported"
+-msgstr "Versión no soportada"
+-
+-#: libgnomecups/gnome-cups-request.c:108
+-msgid "Device error"
+-msgstr "Error del dispositivo"
+-
+-#: libgnomecups/gnome-cups-request.c:109
+-msgid "Temporary error"
+-msgstr "Error temporal"
+-
+-#: libgnomecups/gnome-cups-request.c:110
+-msgid "The printer is not accepting jobs"
+-msgstr "La impresora no está aceptando trabajos"
+-
+-#: libgnomecups/gnome-cups-request.c:111
+-msgid "The printer is busy"
+-msgstr "La impresora está ocupada"
+-
+-#: libgnomecups/gnome-cups-request.c:112
+-msgid "The job has been canceled"
+-msgstr "El trabajo ha sido cancelado"
+-
+-#: libgnomecups/gnome-cups-request.c:113
+-msgid "Multiple-document jobs are not supported"
+-msgstr "Los trabajos de múltiples documentos no están soportados"
+-
+-#: libgnomecups/gnome-cups-request.c:114
+-msgid "The printer is deactivated"
+-msgstr "La impresora está desactivada"
+-
+-#: libgnomecups/gnome-cups-request.c:119
+-msgid "Redirected to another site"
+-msgstr "Redirigido a otro sitio"
+-
+-#: libgnomecups/gnome-cups-request.c:125
+-msgid "Unknown error"
+-msgstr "Error desconocido"
++#~ msgid "Unknown error"
++#~ msgstr "Error desconocido"
+--- libgnomecups-0.2.3/po/fr.po	2010-07-20 12:21:23.689970340 +0530
++++ libgnomecups-0.2.3/po/fr.po	2010-07-20 12:23:40.985919695 +0530
+@@ -9,7 +9,7 @@ 
+ msgstr ""
+ "Project-Id-Version: libgnomecups 0.1.6\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2004-12-14 09:19-0500\n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
+ "PO-Revision-Date: 2004-09-24 17:29+0200\n"
+ "Last-Translator: Craig Jeffares <cjeffares@novell.com>\n"
+ "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+@@ -17,222 +17,182 @@ 
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ 
+-#: libgnomecups/gnome-cups-printer.c:86
++#: ../libgnomecups/gnome-cups-printer.c:93
+ msgid "Ready"
+ msgstr "Prêt"
+ 
+-#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
+ msgid "Printing"
+ msgstr "Impression"
+ 
+-#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
+ msgid "Paused"
+ msgstr "En pause"
+ 
+-#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+-#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+-#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+-#: libgnomecups/gnome-cups-queue.c:185
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
+ msgid "Unknown"
+ msgstr "Inconnu"
+ 
+-#: libgnomecups/gnome-cups-printer.c:881
++#: ../libgnomecups/gnome-cups-printer.c:1202
+ #, c-format
+ msgid "%s: %s"
+ msgstr "%s : %s"
+ 
+-#: libgnomecups/gnome-cups-queue.c:43
++#: ../libgnomecups/gnome-cups-queue.c:43
+ msgid "Pending"
+ msgstr "En attente"
+ 
+-#: libgnomecups/gnome-cups-queue.c:46
++#: ../libgnomecups/gnome-cups-queue.c:46
+ msgid "Stopped"
+ msgstr "Arrêté"
+ 
+-#: libgnomecups/gnome-cups-queue.c:47
++#: ../libgnomecups/gnome-cups-queue.c:47
+ msgid "Canceled"
+ msgstr "Annulé"
+ 
+-#: libgnomecups/gnome-cups-queue.c:48
++#: ../libgnomecups/gnome-cups-queue.c:48
+ msgid "Aborted"
+ msgstr "Abandonné"
+ 
+-#: libgnomecups/gnome-cups-queue.c:49
++#: ../libgnomecups/gnome-cups-queue.c:49
+ msgid "Completed"
+ msgstr "Complété"
+ 
+-#: libgnomecups/gnome-cups-request.c:66
+-msgid "Success"
+-msgstr "Réussi"
+-
+-#: libgnomecups/gnome-cups-request.c:67
+-msgid "Success, some attributes were ignored"
+-msgstr "Réussi, certains attributs ont été ignorés"
+-
+-#: libgnomecups/gnome-cups-request.c:68
+-msgid "Success, some attributes conflicted"
+-msgstr "Réussi, certains attributs sont en conflit"
+-
+-#: libgnomecups/gnome-cups-request.c:69
+-msgid "Success, ignored subscriptions"
+-msgstr "Réussi, abonnements ignorés"
+-
+-#: libgnomecups/gnome-cups-request.c:70
+-msgid "Success, ignored notifications"
+-msgstr "Réussi, notifications ignorées"
+-
+-#: libgnomecups/gnome-cups-request.c:71
+-msgid "Success, too many events"
+-msgstr "Réussi, trop d'événements"
+-
+-#: libgnomecups/gnome-cups-request.c:72
+-msgid "Success, cancel subscription"
+-msgstr "Réussi, abonnement annulé"
+-
+-#: libgnomecups/gnome-cups-request.c:76
+-msgid "Bad request"
+-msgstr "Mauvaise requête"
+-
+-#: libgnomecups/gnome-cups-request.c:77
+-msgid "Forbidden"
+-msgstr "Interdit"
+-
+-#: libgnomecups/gnome-cups-request.c:78
+-msgid "The client has not been authenticated"
+-msgstr "Le client n'a pas été authentifié"
+-
+-#: libgnomecups/gnome-cups-request.c:79
+-msgid "You are not authorized to perform this operation"
+-msgstr "Vous n'êtes pas autorisé à effectuer cette opération"
+-
+-#: libgnomecups/gnome-cups-request.c:80
+-msgid "This operation cannot be completed"
+-msgstr "Cette opération ne pas être complétée"
+-
+-#: libgnomecups/gnome-cups-request.c:81
+-msgid "Timeout"
+-msgstr "Dépassement de temps"
+-
+-#: libgnomecups/gnome-cups-request.c:82
+-msgid "The requested file was not found"
+-msgstr "Le fichier demandé n'a pas été trouvé"
+-
+-#: libgnomecups/gnome-cups-request.c:83
+-msgid "The requested resource no longer exists"
+-msgstr "La ressource demandée n'existe plus"
+-
+-#: libgnomecups/gnome-cups-request.c:84
+-msgid "The request was too large"
+-msgstr "La requête était trop large"
+-
+-#: libgnomecups/gnome-cups-request.c:85
+-msgid "The request was too long"
+-msgstr "La requête était trop longue"
+-
+-#: libgnomecups/gnome-cups-request.c:86
+-msgid "The document format is not supported"
+-msgstr "Le format du document n'est pas supporté"
+-
+-#: libgnomecups/gnome-cups-request.c:87
+-msgid "The value or attributes in this request are not supported"
+-msgstr "La valeur ou les attributs de cette requête ne sont supportés"
+-
+-#: libgnomecups/gnome-cups-request.c:88
+-msgid "The URI scheme is not supported"
+-msgstr "Ce genre d'URI n'est pas supporté"
+-
+-#: libgnomecups/gnome-cups-request.c:89
+-msgid "The requested character set is not supported"
+-msgstr "Le jeu de caractères demandé n'est pas supporté"
+-
+-#: libgnomecups/gnome-cups-request.c:90
+-msgid "There were conflicting attributes in the request"
+-msgstr "Il y eu des conflits entre les attributs de la requête"
+-
+-#: libgnomecups/gnome-cups-request.c:91
+-msgid "Compression is not supported"
+-msgstr "La compression n'est pas supportée"
+-
+-#: libgnomecups/gnome-cups-request.c:92
+-msgid "There was a compression error"
+-msgstr "Il y a eu une erreur de compression"
+-
+-#: libgnomecups/gnome-cups-request.c:93
+-msgid "There was an error in the format of the document"
+-msgstr "Il y a eu une erreur dans le format du document"
+-
+-#: libgnomecups/gnome-cups-request.c:94
+-msgid "There was an error accessing the document"
+-msgstr "Il y a eu une erreur lors de l'accès au document"
+-
+-#: libgnomecups/gnome-cups-request.c:95
+-msgid "Some attributes could not be set"
+-msgstr "Certains des attributs ne peut pas être positionnés"
+-
+-#: libgnomecups/gnome-cups-request.c:96
+-msgid "All subscriptions were ignored"
+-msgstr "Tous les abonnements ont été ignorés"
+-
+-#: libgnomecups/gnome-cups-request.c:97
+-msgid "Too many subscriptions"
+-msgstr "Trop d'abonnements"
+-
+-#: libgnomecups/gnome-cups-request.c:98
+-msgid "All notifications were ignored."
+-msgstr "Toutes les notifications ont été ignorées."
+-
+-#: libgnomecups/gnome-cups-request.c:99
+-msgid "A print support file was not found."
+-msgstr "Un fichier de support d'impression n'a pas été trouvé."
+-
+-#: libgnomecups/gnome-cups-request.c:104
+-msgid "Internal server error"
+-msgstr "Erreur interne au serveur"
+-
+-#: libgnomecups/gnome-cups-request.c:105
+-msgid "Operation not supported"
+-msgstr "Opération non supportée"
+-
+-#: libgnomecups/gnome-cups-request.c:106
+-msgid "Service unavailable"
+-msgstr "Service indisponible"
+-
+-#: libgnomecups/gnome-cups-request.c:107
+-msgid "Version not supported"
+-msgstr "Version non supportée"
+-
+-#: libgnomecups/gnome-cups-request.c:108
+-msgid "Device error"
+-msgstr "Erreur de périphérique"
+-
+-#: libgnomecups/gnome-cups-request.c:109
+-msgid "Temporary error"
+-msgstr "Erreur temporaire"
+-
+-#: libgnomecups/gnome-cups-request.c:110
+-msgid "The printer is not accepting jobs"
+-msgstr "L'imprimante n'accepte pas les travaux"
+-
+-#: libgnomecups/gnome-cups-request.c:111
+-msgid "The printer is busy"
+-msgstr "L'imprimante est occupée"
+-
+-#: libgnomecups/gnome-cups-request.c:112
+-msgid "The job has been canceled"
+-msgstr "Le travail a été annulé"
+-
+-#: libgnomecups/gnome-cups-request.c:113
+-msgid "Multiple-document jobs are not supported"
+-msgstr "Les travaux sur des documents multiples ne sont pas supportés"
+-
+-#: libgnomecups/gnome-cups-request.c:114
+-msgid "The printer is deactivated"
+-msgstr "L'imprimante est désactivée"
+-
+-#: libgnomecups/gnome-cups-request.c:119
+-msgid "Redirected to another site"
+-msgstr "Redigé vers un autre site"
+-
+-#: libgnomecups/gnome-cups-request.c:125
+-msgid "Unknown error"
+-msgstr "Erreur inconnue"
++#~ msgid "Success"
++#~ msgstr "Réussi"
++
++#~ msgid "Success, some attributes were ignored"
++#~ msgstr "Réussi, certains attributs ont été ignorés"
++
++#~ msgid "Success, some attributes conflicted"
++#~ msgstr "Réussi, certains attributs sont en conflit"
++
++#~ msgid "Success, ignored subscriptions"
++#~ msgstr "Réussi, abonnements ignorés"
++
++#~ msgid "Success, ignored notifications"
++#~ msgstr "Réussi, notifications ignorées"
++
++#~ msgid "Success, too many events"
++#~ msgstr "Réussi, trop d'événements"
++
++#~ msgid "Success, cancel subscription"
++#~ msgstr "Réussi, abonnement annulé"
++
++#~ msgid "Bad request"
++#~ msgstr "Mauvaise requête"
++
++#~ msgid "Forbidden"
++#~ msgstr "Interdit"
++
++#~ msgid "The client has not been authenticated"
++#~ msgstr "Le client n'a pas été authentifié"
++
++#~ msgid "You are not authorized to perform this operation"
++#~ msgstr "Vous n'êtes pas autorisé à effectuer cette opération"
++
++#~ msgid "This operation cannot be completed"
++#~ msgstr "Cette opération ne pas être complétée"
++
++#~ msgid "Timeout"
++#~ msgstr "Dépassement de temps"
++
++#~ msgid "The requested file was not found"
++#~ msgstr "Le fichier demandé n'a pas été trouvé"
++
++#~ msgid "The requested resource no longer exists"
++#~ msgstr "La ressource demandée n'existe plus"
++
++#~ msgid "The request was too large"
++#~ msgstr "La requête était trop large"
++
++#~ msgid "The request was too long"
++#~ msgstr "La requête était trop longue"
++
++#~ msgid "The document format is not supported"
++#~ msgstr "Le format du document n'est pas supporté"
++
++#~ msgid "The value or attributes in this request are not supported"
++#~ msgstr "La valeur ou les attributs de cette requête ne sont supportés"
++
++#~ msgid "The URI scheme is not supported"
++#~ msgstr "Ce genre d'URI n'est pas supporté"
++
++#~ msgid "The requested character set is not supported"
++#~ msgstr "Le jeu de caractères demandé n'est pas supporté"
++
++#~ msgid "There were conflicting attributes in the request"
++#~ msgstr "Il y eu des conflits entre les attributs de la requête"
++
++#~ msgid "Compression is not supported"
++#~ msgstr "La compression n'est pas supportée"
++
++#~ msgid "There was a compression error"
++#~ msgstr "Il y a eu une erreur de compression"
++
++#~ msgid "There was an error in the format of the document"
++#~ msgstr "Il y a eu une erreur dans le format du document"
++
++#~ msgid "There was an error accessing the document"
++#~ msgstr "Il y a eu une erreur lors de l'accès au document"
++
++#~ msgid "Some attributes could not be set"
++#~ msgstr "Certains des attributs ne peut pas être positionnés"
++
++#~ msgid "All subscriptions were ignored"
++#~ msgstr "Tous les abonnements ont été ignorés"
++
++#~ msgid "Too many subscriptions"
++#~ msgstr "Trop d'abonnements"
++
++#~ msgid "All notifications were ignored."
++#~ msgstr "Toutes les notifications ont été ignorées."
++
++#~ msgid "A print support file was not found."
++#~ msgstr "Un fichier de support d'impression n'a pas été trouvé."
++
++#~ msgid "Internal server error"
++#~ msgstr "Erreur interne au serveur"
++
++#~ msgid "Operation not supported"
++#~ msgstr "Opération non supportée"
++
++#~ msgid "Service unavailable"
++#~ msgstr "Service indisponible"
++
++#~ msgid "Version not supported"
++#~ msgstr "Version non supportée"
++
++#~ msgid "Device error"
++#~ msgstr "Erreur de périphérique"
++
++#~ msgid "Temporary error"
++#~ msgstr "Erreur temporaire"
++
++#~ msgid "The printer is not accepting jobs"
++#~ msgstr "L'imprimante n'accepte pas les travaux"
++
++#~ msgid "The printer is busy"
++#~ msgstr "L'imprimante est occupée"
++
++#~ msgid "The job has been canceled"
++#~ msgstr "Le travail a été annulé"
++
++#~ msgid "Multiple-document jobs are not supported"
++#~ msgstr "Les travaux sur des documents multiples ne sont pas supportés"
++
++#~ msgid "The printer is deactivated"
++#~ msgstr "L'imprimante est désactivée"
++
++#~ msgid "Redirected to another site"
++#~ msgstr "Redigé vers un autre site"
++
++#~ msgid "Unknown error"
++#~ msgstr "Erreur inconnue"
+--- libgnomecups-0.2.3/po/gu.po	2010-07-20 12:21:23.689970340 +0530
++++ libgnomecups-0.2.3/po/gu.po	2010-07-20 12:23:41.321919675 +0530
+@@ -7,7 +7,7 @@ 
+ msgstr ""
+ "Project-Id-Version: libgnomecups.HEAD\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2004-12-14 09:19-0500\n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
+ "PO-Revision-Date: 2004-09-09 15:59+0530\n"
+ "Last-Translator: Ankit Patel <ankit@redhat.com>\n"
+ "Language-Team: Gujarati\n"
+@@ -18,222 +18,182 @@ 
+ "Plural-Forms: Plural-Forms: nplurals=2; plural=(n!=1);\n"
+ "\n"
+ 
+-#: libgnomecups/gnome-cups-printer.c:86
++#: ../libgnomecups/gnome-cups-printer.c:93
+ msgid "Ready"
+ msgstr "તૈયાર"
+ 
+-#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
+ msgid "Printing"
+ msgstr "છાપી રહ્યા છીએ"
+ 
+-#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
+ msgid "Paused"
+ msgstr "અટકાવાયેલ છે"
+ 
+-#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+-#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+-#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+-#: libgnomecups/gnome-cups-queue.c:185
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
+ msgid "Unknown"
+ msgstr "અજ્ઞાત"
+ 
+-#: libgnomecups/gnome-cups-printer.c:881
++#: ../libgnomecups/gnome-cups-printer.c:1202
+ #, c-format
+ msgid "%s: %s"
+ msgstr "%s: %s"
+ 
+-#: libgnomecups/gnome-cups-queue.c:43
++#: ../libgnomecups/gnome-cups-queue.c:43
+ msgid "Pending"
+ msgstr "બાકી રહેલ છે"
+ 
+-#: libgnomecups/gnome-cups-queue.c:46
++#: ../libgnomecups/gnome-cups-queue.c:46
+ msgid "Stopped"
+ msgstr "બંધ થયેલ છે"
+ 
+-#: libgnomecups/gnome-cups-queue.c:47
++#: ../libgnomecups/gnome-cups-queue.c:47
+ msgid "Canceled"
+ msgstr "રદ થયેલ છે"
+ 
+-#: libgnomecups/gnome-cups-queue.c:48
++#: ../libgnomecups/gnome-cups-queue.c:48
+ msgid "Aborted"
+ msgstr "અડધેથી બંધ થયેલ છે"
+ 
+-#: libgnomecups/gnome-cups-queue.c:49
++#: ../libgnomecups/gnome-cups-queue.c:49
+ msgid "Completed"
+ msgstr "પૂર્ણ થયેલ છે"
+ 
+-#: libgnomecups/gnome-cups-request.c:66
+-msgid "Success"
+-msgstr "સફળતા"
+-
+-#: libgnomecups/gnome-cups-request.c:67
+-msgid "Success, some attributes were ignored"
+-msgstr "સફળતા, અમુક લક્ષણઓ અવગણાયેલ છે"
+-
+-#: libgnomecups/gnome-cups-request.c:68
+-msgid "Success, some attributes conflicted"
+-msgstr "સફળતા, અમુક લક્ષણોમાં તકરાર થયેલ છે"
+-
+-#: libgnomecups/gnome-cups-request.c:69
+-msgid "Success, ignored subscriptions"
+-msgstr "સફળતા, અવગણાયેલ ઉમેદવારીઓ"
+-
+-#: libgnomecups/gnome-cups-request.c:70
+-msgid "Success, ignored notifications"
+-msgstr "સફળતા, અવગણાયેલ સૂચનો"
+-
+-#: libgnomecups/gnome-cups-request.c:71
+-msgid "Success, too many events"
+-msgstr "સફળતા, ઘણી બધી ઘટનાઓ"
+-
+-#: libgnomecups/gnome-cups-request.c:72
+-msgid "Success, cancel subscription"
+-msgstr "સફળતા, ઉમેદવારી રદ કરો"
+-
+-#: libgnomecups/gnome-cups-request.c:76
+-msgid "Bad request"
+-msgstr "ખરાબ માંગણી"
+-
+-#: libgnomecups/gnome-cups-request.c:77
+-msgid "Forbidden"
+-msgstr "ભુલાઈ ગયેલ"
+-
+-#: libgnomecups/gnome-cups-request.c:78
+-msgid "The client has not been authenticated"
+-msgstr "ક્લાઈન્ટને સત્તાધિકાર મળેલ નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:79
+-msgid "You are not authorized to perform this operation"
+-msgstr "તમને આ ક્રિયા કરવા માટે સત્તાધિકાર નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:80
+-msgid "This operation cannot be completed"
+-msgstr "આ પ્રક્રિયા પૂર્ણ કરી શકાતી નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:81
+-msgid "Timeout"
+-msgstr "સમયસમાપ્ત"
+-
+-#: libgnomecups/gnome-cups-request.c:82
+-msgid "The requested file was not found"
+-msgstr "માંગણી થયેલ ફાઈલ મળી નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:83
+-msgid "The requested resource no longer exists"
+-msgstr "માંગણી થયેલ સ્રોત લાંબા સમય સુધી અસ્તિત્વમાં નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:84
+-msgid "The request was too large"
+-msgstr "માંગણી ખૂબ મોટી હતી"
+-
+-#: libgnomecups/gnome-cups-request.c:85
+-msgid "The request was too long"
+-msgstr "માંગણી ખૂબ લાંબી હતી"
+-
+-#: libgnomecups/gnome-cups-request.c:86
+-msgid "The document format is not supported"
+-msgstr "દસ્તાવેજના બંધારણને આધાર નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:87
+-msgid "The value or attributes in this request are not supported"
+-msgstr "આ માંગણીના લક્ષણો અથવા કિંમત આધારભૂત નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:88
+-msgid "The URI scheme is not supported"
+-msgstr "URI પદ્ધતિ આધારભૂત નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:89
+-msgid "The requested character set is not supported"
+-msgstr "માંગણી થયેલ અક્ષરોનો સમૂહ આધારભૂત નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:90
+-msgid "There were conflicting attributes in the request"
+-msgstr "ત્યાં માંગણીના લક્ષણોમાં તકરાર થઈ હતી"
+-
+-#: libgnomecups/gnome-cups-request.c:91
+-msgid "Compression is not supported"
+-msgstr "સંકોચન આધારભૂત નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:92
+-msgid "There was a compression error"
+-msgstr "ત્યાં સંકોચન ભૂલ હતી"
+-
+-#: libgnomecups/gnome-cups-request.c:93
+-msgid "There was an error in the format of the document"
+-msgstr "ત્યાં દસ્તાવેજના બંધારણમાં ભૂલ હતી"
+-
+-#: libgnomecups/gnome-cups-request.c:94
+-msgid "There was an error accessing the document"
+-msgstr "ત્યાં દસ્તાવેજને વાપરવામાં ભૂલ હતી"
+-
+-#: libgnomecups/gnome-cups-request.c:95
+-msgid "Some attributes could not be set"
+-msgstr "અમુક લક્ષણો સુયોજિત કરી શકાયા નહિં"
+-
+-#: libgnomecups/gnome-cups-request.c:96
+-msgid "All subscriptions were ignored"
+-msgstr "બધી ઉમેદવારીઓ અવગણાયેલ હતી"
+-
+-#: libgnomecups/gnome-cups-request.c:97
+-msgid "Too many subscriptions"
+-msgstr "ઘણી બધી ઉમેદવારીઓ"
+-
+-#: libgnomecups/gnome-cups-request.c:98
+-msgid "All notifications were ignored."
+-msgstr "બધા સૂચનો અવગણાયેલ હતા."
+-
+-#: libgnomecups/gnome-cups-request.c:99
+-msgid "A print support file was not found."
+-msgstr "છાપન આધાર ફાઈલ મળી નહતી."
+-
+-#: libgnomecups/gnome-cups-request.c:104
+-msgid "Internal server error"
+-msgstr "આંતરિક સર્વર ભૂલ"
+-
+-#: libgnomecups/gnome-cups-request.c:105
+-msgid "Operation not supported"
+-msgstr "દિશાને આધાર નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:106
+-msgid "Service unavailable"
+-msgstr "સેવા ઉપ્લબ્ધ નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:107
+-msgid "Version not supported"
+-msgstr "આવૃત્તિને આધાર નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:108
+-msgid "Device error"
+-msgstr "ઉપકરણ ભૂલ"
+-
+-#: libgnomecups/gnome-cups-request.c:109
+-msgid "Temporary error"
+-msgstr "કામચલાઉ ભૂલ"
+-
+-#: libgnomecups/gnome-cups-request.c:110
+-msgid "The printer is not accepting jobs"
+-msgstr "પ્રિન્ટર ક્રિયાઓ સ્વીકારતું નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:111
+-msgid "The printer is busy"
+-msgstr "પ્રિન્ટર વ્યસ્ત છે"
+-
+-#: libgnomecups/gnome-cups-request.c:112
+-msgid "The job has been canceled"
+-msgstr "ક્રિયા રદ થઈ ગયેલ છે"
+-
+-#: libgnomecups/gnome-cups-request.c:113
+-msgid "Multiple-document jobs are not supported"
+-msgstr "ઘણા બધા દસ્તાવેજની ક્રિયાઓને આધાર નથી"
+-
+-#: libgnomecups/gnome-cups-request.c:114
+-msgid "The printer is deactivated"
+-msgstr "પ્રિન્ટર એ નિષ્ક્રિય થયેલ છે"
+-
+-#: libgnomecups/gnome-cups-request.c:119
+-msgid "Redirected to another site"
+-msgstr "બીજી સાઈટ પર દિશા બદલો"
+-
+-#: libgnomecups/gnome-cups-request.c:125
+-msgid "Unknown error"
+-msgstr "અજ્ઞાત ભૂલ"
++#~ msgid "Success"
++#~ msgstr "સફળતા"
++
++#~ msgid "Success, some attributes were ignored"
++#~ msgstr "સફળતા, અમુક લક્ષણઓ અવગણાયેલ છે"
++
++#~ msgid "Success, some attributes conflicted"
++#~ msgstr "સફળતા, અમુક લક્ષણોમાં તકરાર થયેલ છે"
++
++#~ msgid "Success, ignored subscriptions"
++#~ msgstr "સફળતા, અવગણાયેલ ઉમેદવારીઓ"
++
++#~ msgid "Success, ignored notifications"
++#~ msgstr "સફળતા, અવગણાયેલ સૂચનો"
++
++#~ msgid "Success, too many events"
++#~ msgstr "સફળતા, ઘણી બધી ઘટનાઓ"
++
++#~ msgid "Success, cancel subscription"
++#~ msgstr "સફળતા, ઉમેદવારી રદ કરો"
++
++#~ msgid "Bad request"
++#~ msgstr "ખરાબ માંગણી"
++
++#~ msgid "Forbidden"
++#~ msgstr "ભુલાઈ ગયેલ"
++
++#~ msgid "The client has not been authenticated"
++#~ msgstr "ક્લાઈન્ટને સત્તાધિકાર મળેલ નથી"
++
++#~ msgid "You are not authorized to perform this operation"
++#~ msgstr "તમને આ ક્રિયા કરવા માટે સત્તાધિકાર નથી"
++
++#~ msgid "This operation cannot be completed"
++#~ msgstr "આ પ્રક્રિયા પૂર્ણ કરી શકાતી નથી"
++
++#~ msgid "Timeout"
++#~ msgstr "સમયસમાપ્ત"
++
++#~ msgid "The requested file was not found"
++#~ msgstr "માંગણી થયેલ ફાઈલ મળી નથી"
++
++#~ msgid "The requested resource no longer exists"
++#~ msgstr "માંગણી થયેલ સ્રોત લાંબા સમય સુધી અસ્તિત્વમાં નથી"
++
++#~ msgid "The request was too large"
++#~ msgstr "માંગણી ખૂબ મોટી હતી"
++
++#~ msgid "The request was too long"
++#~ msgstr "માંગણી ખૂબ લાંબી હતી"
++
++#~ msgid "The document format is not supported"
++#~ msgstr "દસ્તાવેજના બંધારણને આધાર નથી"
++
++#~ msgid "The value or attributes in this request are not supported"
++#~ msgstr "આ માંગણીના લક્ષણો અથવા કિંમત આધારભૂત નથી"
++
++#~ msgid "The URI scheme is not supported"
++#~ msgstr "URI પદ્ધતિ આધારભૂત નથી"
++
++#~ msgid "The requested character set is not supported"
++#~ msgstr "માંગણી થયેલ અક્ષરોનો સમૂહ આધારભૂત નથી"
++
++#~ msgid "There were conflicting attributes in the request"
++#~ msgstr "ત્યાં માંગણીના લક્ષણોમાં તકરાર થઈ હતી"
++
++#~ msgid "Compression is not supported"
++#~ msgstr "સંકોચન આધારભૂત નથી"
++
++#~ msgid "There was a compression error"
++#~ msgstr "ત્યાં સંકોચન ભૂલ હતી"
++
++#~ msgid "There was an error in the format of the document"
++#~ msgstr "ત્યાં દસ્તાવેજના બંધારણમાં ભૂલ હતી"
++
++#~ msgid "There was an error accessing the document"
++#~ msgstr "ત્યાં દસ્તાવેજને વાપરવામાં ભૂલ હતી"
++
++#~ msgid "Some attributes could not be set"
++#~ msgstr "અમુક લક્ષણો સુયોજિત કરી શકાયા નહિં"
++
++#~ msgid "All subscriptions were ignored"
++#~ msgstr "બધી ઉમેદવારીઓ અવગણાયેલ હતી"
++
++#~ msgid "Too many subscriptions"
++#~ msgstr "ઘણી બધી ઉમેદવારીઓ"
++
++#~ msgid "All notifications were ignored."
++#~ msgstr "બધા સૂચનો અવગણાયેલ હતા."
++
++#~ msgid "A print support file was not found."
++#~ msgstr "છાપન આધાર ફાઈલ મળી નહતી."
++
++#~ msgid "Internal server error"
++#~ msgstr "આંતરિક સર્વર ભૂલ"
++
++#~ msgid "Operation not supported"
++#~ msgstr "દિશાને આધાર નથી"
++
++#~ msgid "Service unavailable"
++#~ msgstr "સેવા ઉપ્લબ્ધ નથી"
++
++#~ msgid "Version not supported"
++#~ msgstr "આવૃત્તિને આધાર નથી"
++
++#~ msgid "Device error"
++#~ msgstr "ઉપકરણ ભૂલ"
++
++#~ msgid "Temporary error"
++#~ msgstr "કામચલાઉ ભૂલ"
++
++#~ msgid "The printer is not accepting jobs"
++#~ msgstr "પ્રિન્ટર ક્રિયાઓ સ્વીકારતું નથી"
++
++#~ msgid "The printer is busy"
++#~ msgstr "પ્રિન્ટર વ્યસ્ત છે"
++
++#~ msgid "The job has been canceled"
++#~ msgstr "ક્રિયા રદ થઈ ગયેલ છે"
++
++#~ msgid "Multiple-document jobs are not supported"
++#~ msgstr "ઘણા બધા દસ્તાવેજની ક્રિયાઓને આધાર નથી"
++
++#~ msgid "The printer is deactivated"
++#~ msgstr "પ્રિન્ટર એ નિષ્ક્રિય થયેલ છે"
++
++#~ msgid "Redirected to another site"
++#~ msgstr "બીજી સાઈટ પર દિશા બદલો"
++
++#~ msgid "Unknown error"
++#~ msgstr "અજ્ઞાત ભૂલ"
+--- libgnomecups-0.2.3/po/hi.po	2010-07-20 12:21:23.692048325 +0530
++++ libgnomecups-0.2.3/po/hi.po	2010-07-20 12:23:41.657919705 +0530
+@@ -7,7 +7,7 @@ 
+ msgstr ""
+ "Project-Id-Version: libgnomecups.HEAD\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2005-07-13 06:30+0000\n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
+ "PO-Revision-Date: 2005-07-13 18:48+0530\n"
+ "Last-Translator: Rajesh Ranjan <rranjan@redhat.com>\n"
+ "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
+@@ -15,24 +15,25 @@ 
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "X-Generator: KBabel 1.9.1\n"
+-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
++"Plural-Forms: nplurals=2; plural=(n!=1);\n"
++"\n"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:88
++#: ../libgnomecups/gnome-cups-printer.c:93
+ msgid "Ready"
+ msgstr "तैयार"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:89
++#: ../libgnomecups/gnome-cups-printer.c:94
+ #: ../libgnomecups/gnome-cups-queue.c:45
+ msgid "Printing"
+ msgstr "मुद्रण कर रहे"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:90
++#: ../libgnomecups/gnome-cups-printer.c:95
+ #: ../libgnomecups/gnome-cups-queue.c:44
+ msgid "Paused"
+ msgstr "ठहरा"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:1024
+-#: ../libgnomecups/gnome-cups-printer.c:1036
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
+ #: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+ #: ../libgnomecups/gnome-cups-queue.c:42
+ #: ../libgnomecups/gnome-cups-queue.c:182
+@@ -40,7 +41,7 @@ 
+ msgid "Unknown"
+ msgstr "अज्ञात"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:1043
++#: ../libgnomecups/gnome-cups-printer.c:1202
+ #, c-format
+ msgid "%s: %s"
+ msgstr "%s: %s"
+@@ -64,4 +65,3 @@ 
+ #: ../libgnomecups/gnome-cups-queue.c:49
+ msgid "Completed"
+ msgstr "समाप्त"
+-
+--- libgnomecups-0.2.3/po/it.po	2010-07-20 12:21:23.698048140 +0530
++++ libgnomecups-0.2.3/po/it.po	2010-07-20 12:23:41.993919537 +0530
+@@ -12,7 +12,7 @@ 
+ msgstr ""
+ "Project-Id-Version: libgnomecups\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2006-02-26 12:42+0100\n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
+ "PO-Revision-Date: 2006-02-26 12:45+0100\n"
+ "Last-Translator: Luca Ferretti <elle.uca@libero.it>\n"
+ "Language-Team: Italian <tp@lists.linux.it>\n"
+@@ -20,22 +20,22 @@ 
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:88
++#: ../libgnomecups/gnome-cups-printer.c:93
+ msgid "Ready"
+ msgstr "Pronta"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:89
++#: ../libgnomecups/gnome-cups-printer.c:94
+ #: ../libgnomecups/gnome-cups-queue.c:45
+ msgid "Printing"
+ msgstr "In stampa"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:90
++#: ../libgnomecups/gnome-cups-printer.c:95
+ #: ../libgnomecups/gnome-cups-queue.c:44
+ msgid "Paused"
+ msgstr "In pausa"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:1024
+-#: ../libgnomecups/gnome-cups-printer.c:1036
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
+ #: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+ #: ../libgnomecups/gnome-cups-queue.c:42
+ #: ../libgnomecups/gnome-cups-queue.c:182
+@@ -43,7 +43,7 @@ 
+ msgid "Unknown"
+ msgstr "Sconosciuto"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:1043
++#: ../libgnomecups/gnome-cups-printer.c:1202
+ #, c-format
+ msgid "%s: %s"
+ msgstr "%s: %s"
+--- libgnomecups-0.2.3/po/ja.po	2010-07-20 12:21:23.689970340 +0530
++++ libgnomecups-0.2.3/po/ja.po	2010-07-20 12:23:42.313919928 +0530
+@@ -7,7 +7,7 @@ 
+ msgstr ""
+ "Project-Id-Version: libgnomecups HEAD\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2004-12-14 09:19-0500\n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
+ "PO-Revision-Date: 2004-06-05 18:42+0900\n"
+ "Last-Translator: Takeshi AIHANA <aihana@gnome.gr.jp>\n"
+ "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+@@ -15,222 +15,182 @@ 
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ 
+-#: libgnomecups/gnome-cups-printer.c:86
++#: ../libgnomecups/gnome-cups-printer.c:93
+ msgid "Ready"
+ msgstr "準備完了"
+ 
+-#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
+ msgid "Printing"
+ msgstr "印刷中"
+ 
+-#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
+ msgid "Paused"
+ msgstr "一時停止"
+ 
+-#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+-#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+-#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+-#: libgnomecups/gnome-cups-queue.c:185
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
+ msgid "Unknown"
+ msgstr "不明"
+ 
+-#: libgnomecups/gnome-cups-printer.c:881
++#: ../libgnomecups/gnome-cups-printer.c:1202
+ #, c-format
+ msgid "%s: %s"
+ msgstr "%s: %s"
+ 
+-#: libgnomecups/gnome-cups-queue.c:43
++#: ../libgnomecups/gnome-cups-queue.c:43
+ msgid "Pending"
+ msgstr "保留中"
+ 
+-#: libgnomecups/gnome-cups-queue.c:46
++#: ../libgnomecups/gnome-cups-queue.c:46
+ msgid "Stopped"
+ msgstr "停止"
+ 
+-#: libgnomecups/gnome-cups-queue.c:47
++#: ../libgnomecups/gnome-cups-queue.c:47
+ msgid "Canceled"
+ msgstr "キャンセル"
+ 
+-#: libgnomecups/gnome-cups-queue.c:48
++#: ../libgnomecups/gnome-cups-queue.c:48
+ msgid "Aborted"
+ msgstr "中止"
+ 
+-#: libgnomecups/gnome-cups-queue.c:49
++#: ../libgnomecups/gnome-cups-queue.c:49
+ msgid "Completed"
+ msgstr "完了"
+ 
+-#: libgnomecups/gnome-cups-request.c:66
+-msgid "Success"
+-msgstr "成功です"
+-
+-#: libgnomecups/gnome-cups-request.c:67
+-msgid "Success, some attributes were ignored"
+-msgstr "成功です (いくつかの属性を無視しました)"
+-
+-#: libgnomecups/gnome-cups-request.c:68
+-msgid "Success, some attributes conflicted"
+-msgstr "成功です (いくつかの属性が重複しています)"
+-
+-#: libgnomecups/gnome-cups-request.c:69
+-msgid "Success, ignored subscriptions"
+-msgstr "成功です (いくつかの予約を無視しました)"
+-
+-#: libgnomecups/gnome-cups-request.c:70
+-msgid "Success, ignored notifications"
+-msgstr "成功です (いくつかの通知を無視しました)"
+-
+-#: libgnomecups/gnome-cups-request.c:71
+-msgid "Success, too many events"
+-msgstr "成功です (イベントが多すぎます)"
+-
+-#: libgnomecups/gnome-cups-request.c:72
+-msgid "Success, cancel subscription"
+-msgstr "成功です (予約をキャンセルしました)"
+-
+-#: libgnomecups/gnome-cups-request.c:76
+-msgid "Bad request"
+-msgstr "おかしなリクエスト"
+-
+-#: libgnomecups/gnome-cups-request.c:77
+-msgid "Forbidden"
+-msgstr "利用できません"
+-
+-#: libgnomecups/gnome-cups-request.c:78
+-msgid "The client has not been authenticated"
+-msgstr "クライアントが認証されていません"
+-
+-#: libgnomecups/gnome-cups-request.c:79
+-msgid "You are not authorized to perform this operation"
+-msgstr "この操作に必要な権限がありません"
+-
+-#: libgnomecups/gnome-cups-request.c:80
+-msgid "This operation cannot be completed"
+-msgstr "この操作を完了することができません"
+-
+-#: libgnomecups/gnome-cups-request.c:81
+-msgid "Timeout"
+-msgstr "タイムアウト"
+-
+-#: libgnomecups/gnome-cups-request.c:82
+-msgid "The requested file was not found"
+-msgstr "指定したファイルが見つかりませんでした"
+-
+-#: libgnomecups/gnome-cups-request.c:83
+-msgid "The requested resource no longer exists"
+-msgstr "指定したリソースが存在しません"
+-
+-#: libgnomecups/gnome-cups-request.c:84
+-msgid "The request was too large"
+-msgstr "リクエストが大きすぎます"
+-
+-#: libgnomecups/gnome-cups-request.c:85
+-msgid "The request was too long"
+-msgstr "リクエストが長すぎます"
+-
+-#: libgnomecups/gnome-cups-request.c:86
+-msgid "The document format is not supported"
+-msgstr "そのドキュメントの書式をサポートしていません"
+-
+-#: libgnomecups/gnome-cups-request.c:87
+-msgid "The value or attributes in this request are not supported"
+-msgstr "このリクエストの値または属性をサポートしていません"
+-
+-#: libgnomecups/gnome-cups-request.c:88
+-msgid "The URI scheme is not supported"
+-msgstr "その URI スキーマをサポートしていません"
+-
+-#: libgnomecups/gnome-cups-request.c:89
+-msgid "The requested character set is not supported"
+-msgstr "指定した文字セットをサポートしていません"
+-
+-#: libgnomecups/gnome-cups-request.c:90
+-msgid "There were conflicting attributes in the request"
+-msgstr "リクエストの中に重複した属性があります"
+-
+-#: libgnomecups/gnome-cups-request.c:91
+-msgid "Compression is not supported"
+-msgstr "圧縮形式をサポートしていません"
+-
+-#: libgnomecups/gnome-cups-request.c:92
+-msgid "There was a compression error"
+-msgstr "圧縮エラーがあります"
+-
+-#: libgnomecups/gnome-cups-request.c:93
+-msgid "There was an error in the format of the document"
+-msgstr "ドキュメントの書式にエラーがあります"
+-
+-#: libgnomecups/gnome-cups-request.c:94
+-msgid "There was an error accessing the document"
+-msgstr "ドキュメントにアクセスする際にエラーが発生しました"
+-
+-#: libgnomecups/gnome-cups-request.c:95
+-msgid "Some attributes could not be set"
+-msgstr "いくつかの属性をセットできませんでした"
+-
+-#: libgnomecups/gnome-cups-request.c:96
+-msgid "All subscriptions were ignored"
+-msgstr "全ての予約を無視しました"
+-
+-#: libgnomecups/gnome-cups-request.c:97
+-msgid "Too many subscriptions"
+-msgstr "予約が多すぎます"
+-
+-#: libgnomecups/gnome-cups-request.c:98
+-msgid "All notifications were ignored."
+-msgstr "全ての通知を無視しました"
+-
+-#: libgnomecups/gnome-cups-request.c:99
+-msgid "A print support file was not found."
+-msgstr "印刷サポートファイルが見つかりませんでした"
+-
+-#: libgnomecups/gnome-cups-request.c:104
+-msgid "Internal server error"
+-msgstr "サーバ内部のエラーです"
+-
+-#: libgnomecups/gnome-cups-request.c:105
+-msgid "Operation not supported"
+-msgstr "その操作をサポートしていません"
+-
+-#: libgnomecups/gnome-cups-request.c:106
+-msgid "Service unavailable"
+-msgstr "そのサービスは利用できません"
+-
+-#: libgnomecups/gnome-cups-request.c:107
+-msgid "Version not supported"
+-msgstr "そのバージョンをサポートしていません"
+-
+-#: libgnomecups/gnome-cups-request.c:108
+-msgid "Device error"
+-msgstr "デバイスのエラーです"
+-
+-#: libgnomecups/gnome-cups-request.c:109
+-msgid "Temporary error"
+-msgstr "一時的なエラーです"
+-
+-#: libgnomecups/gnome-cups-request.c:110
+-msgid "The printer is not accepting jobs"
+-msgstr "プリンタがジョブを受け入れていません"
+-
+-#: libgnomecups/gnome-cups-request.c:111
+-msgid "The printer is busy"
+-msgstr "プリンタが busy です"
+-
+-#: libgnomecups/gnome-cups-request.c:112
+-msgid "The job has been canceled"
+-msgstr "ジョブがキャンセルされています"
+-
+-#: libgnomecups/gnome-cups-request.c:113
+-msgid "Multiple-document jobs are not supported"
+-msgstr "Multiple ドキュメントのジョブをサポートしていません"
+-
+-#: libgnomecups/gnome-cups-request.c:114
+-msgid "The printer is deactivated"
+-msgstr "プリンタが活性化されていません"
+-
+-#: libgnomecups/gnome-cups-request.c:119
+-msgid "Redirected to another site"
+-msgstr "もう一つのサイトにリダイレクトしました"
+-
+-#: libgnomecups/gnome-cups-request.c:125
+-msgid "Unknown error"
+-msgstr "不明なエラーです"
++#~ msgid "Success"
++#~ msgstr "成功です"
++
++#~ msgid "Success, some attributes were ignored"
++#~ msgstr "成功です (いくつかの属性を無視しました)"
++
++#~ msgid "Success, some attributes conflicted"
++#~ msgstr "成功です (いくつかの属性が重複しています)"
++
++#~ msgid "Success, ignored subscriptions"
++#~ msgstr "成功です (いくつかの予約を無視しました)"
++
++#~ msgid "Success, ignored notifications"
++#~ msgstr "成功です (いくつかの通知を無視しました)"
++
++#~ msgid "Success, too many events"
++#~ msgstr "成功です (イベントが多すぎます)"
++
++#~ msgid "Success, cancel subscription"
++#~ msgstr "成功です (予約をキャンセルしました)"
++
++#~ msgid "Bad request"
++#~ msgstr "おかしなリクエスト"
++
++#~ msgid "Forbidden"
++#~ msgstr "利用できません"
++
++#~ msgid "The client has not been authenticated"
++#~ msgstr "クライアントが認証されていません"
++
++#~ msgid "You are not authorized to perform this operation"
++#~ msgstr "この操作に必要な権限がありません"
++
++#~ msgid "This operation cannot be completed"
++#~ msgstr "この操作を完了することができません"
++
++#~ msgid "Timeout"
++#~ msgstr "タイムアウト"
++
++#~ msgid "The requested file was not found"
++#~ msgstr "指定したファイルが見つかりませんでした"
++
++#~ msgid "The requested resource no longer exists"
++#~ msgstr "指定したリソースが存在しません"
++
++#~ msgid "The request was too large"
++#~ msgstr "リクエストが大きすぎます"
++
++#~ msgid "The request was too long"
++#~ msgstr "リクエストが長すぎます"
++
++#~ msgid "The document format is not supported"
++#~ msgstr "そのドキュメントの書式をサポートしていません"
++
++#~ msgid "The value or attributes in this request are not supported"
++#~ msgstr "このリクエストの値または属性をサポートしていません"
++
++#~ msgid "The URI scheme is not supported"
++#~ msgstr "その URI スキーマをサポートしていません"
++
++#~ msgid "The requested character set is not supported"
++#~ msgstr "指定した文字セットをサポートしていません"
++
++#~ msgid "There were conflicting attributes in the request"
++#~ msgstr "リクエストの中に重複した属性があります"
++
++#~ msgid "Compression is not supported"
++#~ msgstr "圧縮形式をサポートしていません"
++
++#~ msgid "There was a compression error"
++#~ msgstr "圧縮エラーがあります"
++
++#~ msgid "There was an error in the format of the document"
++#~ msgstr "ドキュメントの書式にエラーがあります"
++
++#~ msgid "There was an error accessing the document"
++#~ msgstr "ドキュメントにアクセスする際にエラーが発生しました"
++
++#~ msgid "Some attributes could not be set"
++#~ msgstr "いくつかの属性をセットできませんでした"
++
++#~ msgid "All subscriptions were ignored"
++#~ msgstr "全ての予約を無視しました"
++
++#~ msgid "Too many subscriptions"
++#~ msgstr "予約が多すぎます"
++
++#~ msgid "All notifications were ignored."
++#~ msgstr "全ての通知を無視しました"
++
++#~ msgid "A print support file was not found."
++#~ msgstr "印刷サポートファイルが見つかりませんでした"
++
++#~ msgid "Internal server error"
++#~ msgstr "サーバ内部のエラーです"
++
++#~ msgid "Operation not supported"
++#~ msgstr "その操作をサポートしていません"
++
++#~ msgid "Service unavailable"
++#~ msgstr "そのサービスは利用できません"
++
++#~ msgid "Version not supported"
++#~ msgstr "そのバージョンをサポートしていません"
++
++#~ msgid "Device error"
++#~ msgstr "デバイスのエラーです"
++
++#~ msgid "Temporary error"
++#~ msgstr "一時的なエラーです"
++
++#~ msgid "The printer is not accepting jobs"
++#~ msgstr "プリンタがジョブを受け入れていません"
++
++#~ msgid "The printer is busy"
++#~ msgstr "プリンタが busy です"
++
++#~ msgid "The job has been canceled"
++#~ msgstr "ジョブがキャンセルされています"
++
++#~ msgid "Multiple-document jobs are not supported"
++#~ msgstr "Multiple ドキュメントのジョブをサポートしていません"
++
++#~ msgid "The printer is deactivated"
++#~ msgstr "プリンタが活性化されていません"
++
++#~ msgid "Redirected to another site"
++#~ msgstr "もう一つのサイトにリダイレクトしました"
++
++#~ msgid "Unknown error"
++#~ msgstr "不明なエラーです"
+--- libgnomecups-0.2.3/po/kn.po	1970-01-01 05:30:00.000000000 +0530
++++ libgnomecups-0.2.3/po/kn.po	2010-07-20 12:23:42.313919928 +0530
+@@ -0,0 +1,66 @@ 
++# translation of libgnomecups.HEAD.po to Kannada
++# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the PACKAGE package.
++#
++# Shankar Prasad <svenkate@redhat.com>, 2009.
++msgid ""
++msgstr ""
++"Project-Id-Version: libgnomecups.HEAD\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
++"PO-Revision-Date: 2009-06-16 23:33+0530\n"
++"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
++"Language-Team: Kannada <en@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
++
++#: ../libgnomecups/gnome-cups-printer.c:93
++msgid "Ready"
++msgstr "ಸಿದ್ಧವಾಗಿದೆ"
++
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
++msgid "Printing"
++msgstr "ಮುದ್ರಿಸಲಾಗುತ್ತಿದೆ"
++
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
++msgid "Paused"
++msgstr "ವಿರಮಿಸಲಾಗಿದೆ"
++
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
++msgid "Unknown"
++msgstr "ಅಜ್ಞಾತ"
++
++#: ../libgnomecups/gnome-cups-printer.c:1202
++#, c-format
++msgid "%s: %s"
++msgstr "%s: %s"
++
++#: ../libgnomecups/gnome-cups-queue.c:43
++msgid "Pending"
++msgstr "ಬಾಕಿ ಇದೆ"
++
++#: ../libgnomecups/gnome-cups-queue.c:46
++msgid "Stopped"
++msgstr "ನಿಲ್ಲಿಸಲಾಗಿದೆ"
++
++#: ../libgnomecups/gnome-cups-queue.c:47
++msgid "Canceled"
++msgstr "ರದ್ದು ಮಾಡಲಾಗಿದೆ"
++
++#: ../libgnomecups/gnome-cups-queue.c:48
++msgid "Aborted"
++msgstr "ತಡೆಹಿಡಿಯಲಾಗಿದೆ"
++
++#: ../libgnomecups/gnome-cups-queue.c:49
++msgid "Completed"
++msgstr "ಪೂರ್ಣಗೊಳಿಸಲಾಗಿದೆ"
+--- libgnomecups-0.2.3/po/ko.po	1970-01-01 05:30:00.000000000 +0530
++++ libgnomecups-0.2.3/po/ko.po	2010-07-20 12:23:42.313919928 +0530
+@@ -0,0 +1,67 @@ 
++# translation of libgnomecups.po to Korean
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++# Automatically generated, 2010.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: libgnomecups\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
++"PO-Revision-Date: 2010-04-18 23:18+1000\n"
++"Last-Translator: \n"
++"Language-Team: Korean <en@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++
++#: ../libgnomecups/gnome-cups-printer.c:93
++msgid "Ready"
++msgstr "준비"
++
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
++msgid "Printing"
++msgstr "인쇄중"
++
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
++msgid "Paused"
++msgstr "일시중지됨"
++
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
++msgid "Unknown"
++msgstr "알 수 없음"
++
++#: ../libgnomecups/gnome-cups-printer.c:1202
++#, c-format
++msgid "%s: %s"
++msgstr "%s: %s"
++
++#: ../libgnomecups/gnome-cups-queue.c:43
++msgid "Pending"
++msgstr "대기중"
++
++#: ../libgnomecups/gnome-cups-queue.c:46
++msgid "Stopped"
++msgstr "정지됨"
++
++#: ../libgnomecups/gnome-cups-queue.c:47
++msgid "Canceled"
++msgstr "취소됨"
++
++#: ../libgnomecups/gnome-cups-queue.c:48
++msgid "Aborted"
++msgstr "중단됨"
++
++#: ../libgnomecups/gnome-cups-queue.c:49
++msgid "Completed"
++msgstr "완료됨"
++
+--- libgnomecups-0.2.3/po/ml.po	1970-01-01 05:30:00.000000000 +0530
++++ libgnomecups-0.2.3/po/ml.po	2010-07-20 12:23:42.313919928 +0530
+@@ -0,0 +1,67 @@ 
++# translation of ml.po to
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++# Automatically generated, 2010.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: ml\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
++"PO-Revision-Date: 2010-04-08 17:38+0530\n"
++"Last-Translator: \n"
++"Language-Team:  <en@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++
++#: ../libgnomecups/gnome-cups-printer.c:93
++msgid "Ready"
++msgstr "തയ്യാര്‍"
++
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
++msgid "Printing"
++msgstr "പ്രിന്റ് ചെയ്യുന്നു"
++
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
++msgid "Paused"
++msgstr "തല്‍ക്കാലത്തേക്ക് നിര്‍ത്തിരിക്കുന്നു"
++
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
++msgid "Unknown"
++msgstr "അപരിചിതം"
++
++#: ../libgnomecups/gnome-cups-printer.c:1202
++#, c-format
++msgid "%s: %s"
++msgstr "%s: %s"
++
++#: ../libgnomecups/gnome-cups-queue.c:43
++msgid "Pending"
++msgstr "ബാക്കിയുള്ളതു്"
++
++#: ../libgnomecups/gnome-cups-queue.c:46
++msgid "Stopped"
++msgstr "നിര്‍ത്തിയിരിക്കുന്നു"
++
++#: ../libgnomecups/gnome-cups-queue.c:47
++msgid "Canceled"
++msgstr "റദ്ദാക്കിയിരിക്കുന്നു"
++
++#: ../libgnomecups/gnome-cups-queue.c:48
++msgid "Aborted"
++msgstr "അവസാനിപ്പിച്ചിരിക്കുന്നു"
++
++#: ../libgnomecups/gnome-cups-queue.c:49
++msgid "Completed"
++msgstr "പൂര്‍ത്തിയാക്കിയിരിക്കുന്നു"
++
+--- libgnomecups-0.2.3/po/mr.po	2010-07-20 12:21:23.693048298 +0530
++++ libgnomecups-0.2.3/po/mr.po	2010-07-20 12:23:42.633919504 +0530
+@@ -7,7 +7,7 @@ 
+ msgstr ""
+ "Project-Id-Version: libgnomecups.HEAD\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2008-11-09 12:07+0000\n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
+ "PO-Revision-Date: 2009-03-06 14:58+0530\n"
+ "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
+ "Language-Team: marathi\n"
+@@ -17,22 +17,22 @@ 
+ "X-Generator: KBabel 1.11.4\n"
+ "Plural-Forms: nplurals=2; plural=(n!=1);\n"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:89
++#: ../libgnomecups/gnome-cups-printer.c:93
+ msgid "Ready"
+ msgstr "तयार"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:90
++#: ../libgnomecups/gnome-cups-printer.c:94
+ #: ../libgnomecups/gnome-cups-queue.c:45
+ msgid "Printing"
+ msgstr "छपाई"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:91
++#: ../libgnomecups/gnome-cups-printer.c:95
+ #: ../libgnomecups/gnome-cups-queue.c:44
+ msgid "Paused"
+ msgstr "स्तब्ध"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:1081
+-#: ../libgnomecups/gnome-cups-printer.c:1093
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
+ #: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+ #: ../libgnomecups/gnome-cups-queue.c:42
+ #: ../libgnomecups/gnome-cups-queue.c:182
+@@ -40,7 +40,7 @@ 
+ msgid "Unknown"
+ msgstr "अपरिचीत"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:1100
++#: ../libgnomecups/gnome-cups-printer.c:1202
+ #, c-format
+ msgid "%s: %s"
+ msgstr "%s: %s"
+@@ -64,4 +64,3 @@ 
+ #: ../libgnomecups/gnome-cups-queue.c:49
+ msgid "Completed"
+ msgstr "पूर्ण केले"
+-
+--- libgnomecups-0.2.3/po/or.po	1970-01-01 05:30:00.000000000 +0530
++++ libgnomecups-0.2.3/po/or.po	2010-07-20 12:23:42.633919504 +0530
+@@ -0,0 +1,69 @@ 
++# translation of or.po to Oriya
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++# Manoj Kumar Giri <mgiri@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: or\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
++"PO-Revision-Date: 2010-04-06 17:37+0530\n"
++"Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
++"Language-Team: Oriya <oriya-it@googlegroups.com>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
++
++#: ../libgnomecups/gnome-cups-printer.c:93
++msgid "Ready"
++msgstr "ପ୍ରସ୍ତୁତ ଅଛି"
++
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
++msgid "Printing"
++msgstr "ମୁଦ୍ରଣ କରୁଅଛି"
++
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
++msgid "Paused"
++msgstr "ସ୍ଥିର ଅଛି"
++
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
++msgid "Unknown"
++msgstr "ଅଜଣା"
++
++#: ../libgnomecups/gnome-cups-printer.c:1202
++#, c-format
++msgid "%s: %s"
++msgstr "%s: %s"
++
++#: ../libgnomecups/gnome-cups-queue.c:43
++msgid "Pending"
++msgstr "ବାକି ଅଛି"
++
++#: ../libgnomecups/gnome-cups-queue.c:46
++msgid "Stopped"
++msgstr "ଅଟକି ଯାଇଛି"
++
++#: ../libgnomecups/gnome-cups-queue.c:47
++msgid "Canceled"
++msgstr "ବାତିଲ ହୋଇଛି"
++
++#: ../libgnomecups/gnome-cups-queue.c:48
++msgid "Aborted"
++msgstr "ପରିତ୍ୟାଗ କରାଯାଇଛି"
++
++#: ../libgnomecups/gnome-cups-queue.c:49
++msgid "Completed"
++msgstr "ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଛି"
++
+--- libgnomecups-0.2.3/po/pa.po	2010-07-20 12:21:23.692048325 +0530
++++ libgnomecups-0.2.3/po/pa.po	2010-07-20 12:23:42.969911842 +0530
+@@ -7,7 +7,7 @@ 
+ msgstr ""
+ "Project-Id-Version: libgnomecups.HEAD\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2005-07-10 14:16+0000\n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
+ "PO-Revision-Date: 2005-07-10 20:54+0530\n"
+ "Last-Translator: Amanpreet Singh Alam <amanpreetalam@yahoo.com>\n"
+ "Language-Team: Punjabi <fedora-transa-pa@redhat.com>\n"
+@@ -16,22 +16,22 @@ 
+ "Content-Transfer-Encoding: 8bit\n"
+ "X-Generator: KBabel 1.9.1\n"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:88
++#: ../libgnomecups/gnome-cups-printer.c:93
+ msgid "Ready"
+ msgstr "ਤਿਆਰ"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:89
++#: ../libgnomecups/gnome-cups-printer.c:94
+ #: ../libgnomecups/gnome-cups-queue.c:45
+ msgid "Printing"
+ msgstr "ਛਾਪਿਆ ਜਾ ਰਿਹਾ ਹੈ"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:90
++#: ../libgnomecups/gnome-cups-printer.c:95
+ #: ../libgnomecups/gnome-cups-queue.c:44
+ msgid "Paused"
+ msgstr "ਵਿਰਾਮ"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:1024
+-#: ../libgnomecups/gnome-cups-printer.c:1036
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
+ #: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+ #: ../libgnomecups/gnome-cups-queue.c:42
+ #: ../libgnomecups/gnome-cups-queue.c:182
+@@ -39,7 +39,7 @@ 
+ msgid "Unknown"
+ msgstr "ਅਣਜਾਣ"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:1043
++#: ../libgnomecups/gnome-cups-printer.c:1202
+ #, c-format
+ msgid "%s: %s"
+ msgstr "%s: %s"
+@@ -63,4 +63,3 @@ 
+ #: ../libgnomecups/gnome-cups-queue.c:49
+ msgid "Completed"
+ msgstr "ਮੁਕੰਮਲ ਹੋਇਆ"
+-
+--- libgnomecups-0.2.3/po/pt_BR.po	2010-07-20 12:21:23.693048298 +0530
++++ libgnomecups-0.2.3/po/pt_BR.po	2010-07-20 12:23:43.289919689 +0530
+@@ -2,13 +2,13 @@ 
+ # Copyright (C) 2003 libgnomecups
+ # This file is distributed under the same license as the libgnomecups package.
+ # Everson Santos Araujo <nobios@por.com.br>, 2004.
+-# 
+-# 
++#
++#
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: 2.6\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2004-12-14 09:19-0500\n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
+ "PO-Revision-Date: 2004-07-08 14:00-0300\n"
+ "Last-Translator: Everson Santos Araujo <nobios@por.com.br>\n"
+ "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
+@@ -16,222 +16,182 @@ 
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ 
+-#: libgnomecups/gnome-cups-printer.c:86
++#: ../libgnomecups/gnome-cups-printer.c:93
+ msgid "Ready"
+ msgstr "Pronto"
+ 
+-#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
+ msgid "Printing"
+ msgstr "Imprimindo"
+ 
+-#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
+ msgid "Paused"
+ msgstr "Em pausa"
+ 
+-#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+-#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+-#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+-#: libgnomecups/gnome-cups-queue.c:185
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
+ msgid "Unknown"
+ msgstr "Desconhecido"
+ 
+-#: libgnomecups/gnome-cups-printer.c:881
++#: ../libgnomecups/gnome-cups-printer.c:1202
+ #, c-format
+ msgid "%s: %s"
+ msgstr "%s: %s"
+ 
+-#: libgnomecups/gnome-cups-queue.c:43
++#: ../libgnomecups/gnome-cups-queue.c:43
+ msgid "Pending"
+ msgstr "Pendente"
+ 
+-#: libgnomecups/gnome-cups-queue.c:46
++#: ../libgnomecups/gnome-cups-queue.c:46
+ msgid "Stopped"
+ msgstr "Parado"
+ 
+-#: libgnomecups/gnome-cups-queue.c:47
++#: ../libgnomecups/gnome-cups-queue.c:47
+ msgid "Canceled"
+ msgstr "Cancelado"
+ 
+-#: libgnomecups/gnome-cups-queue.c:48
++#: ../libgnomecups/gnome-cups-queue.c:48
+ msgid "Aborted"
+ msgstr "Abortado"
+ 
+-#: libgnomecups/gnome-cups-queue.c:49
++#: ../libgnomecups/gnome-cups-queue.c:49
+ msgid "Completed"
+ msgstr "Finalizado"
+ 
+-#: libgnomecups/gnome-cups-request.c:66
+-msgid "Success"
+-msgstr "Sucesso"
+-
+-#: libgnomecups/gnome-cups-request.c:67
+-msgid "Success, some attributes were ignored"
+-msgstr "Sucesso, alguns atributos foram ignorados"
+-
+-#: libgnomecups/gnome-cups-request.c:68
+-msgid "Success, some attributes conflicted"
+-msgstr "Sucesso, alguns atributos em conflito"
+-
+-#: libgnomecups/gnome-cups-request.c:69
+-msgid "Success, ignored subscriptions"
+-msgstr "Sucesso, subscrições ignoradas"
+-
+-#: libgnomecups/gnome-cups-request.c:70
+-msgid "Success, ignored notifications"
+-msgstr "Sucesso, notificações ignoradas"
+-
+-#: libgnomecups/gnome-cups-request.c:71
+-msgid "Success, too many events"
+-msgstr "Sucesso, muitos eventos"
+-
+-#: libgnomecups/gnome-cups-request.c:72
+-msgid "Success, cancel subscription"
+-msgstr "Sucesso, subscrição cancelada"
+-
+-#: libgnomecups/gnome-cups-request.c:76
+-msgid "Bad request"
+-msgstr "Pedido inválido"
+-
+-#: libgnomecups/gnome-cups-request.c:77
+-msgid "Forbidden"
+-msgstr "Proibido"
+-
+-#: libgnomecups/gnome-cups-request.c:78
+-msgid "The client has not been authenticated"
+-msgstr "O cliente não foi autenticado"
+-
+-#: libgnomecups/gnome-cups-request.c:79
+-msgid "You are not authorized to perform this operation"
+-msgstr "Você não está autorizado a efetuar esta operação"
+-
+-#: libgnomecups/gnome-cups-request.c:80
+-msgid "This operation cannot be completed"
+-msgstr "Esta operação não pode ser terminada"
+-
+-#: libgnomecups/gnome-cups-request.c:81
+-msgid "Timeout"
+-msgstr "Tempo expirado"
+-
+-#: libgnomecups/gnome-cups-request.c:82
+-msgid "The requested file was not found"
+-msgstr "O arquivo requisitado não foi encontrado"
+-
+-#: libgnomecups/gnome-cups-request.c:83
+-msgid "The requested resource no longer exists"
+-msgstr "A origem pedida já não existe"
+-
+-#: libgnomecups/gnome-cups-request.c:84
+-msgid "The request was too large"
+-msgstr "O pedido era muito grande"
+-
+-#: libgnomecups/gnome-cups-request.c:85
+-msgid "The request was too long"
+-msgstr "O pedido era muito longo"
+-
+-#: libgnomecups/gnome-cups-request.c:86
+-msgid "The document format is not supported"
+-msgstr "O formato do documento não é suportado"
+-
+-#: libgnomecups/gnome-cups-request.c:87
+-msgid "The value or attributes in this request are not supported"
+-msgstr "Os valores ou atributos neste pedido não são suportados"
+-
+-#: libgnomecups/gnome-cups-request.c:88
+-msgid "The URI scheme is not supported"
+-msgstr "O esquema de URI não é suportado"
+-
+-#: libgnomecups/gnome-cups-request.c:89
+-msgid "The requested character set is not supported"
+-msgstr "O conjunto de caracteres pedido não é suportado"
+-
+-#: libgnomecups/gnome-cups-request.c:90
+-msgid "There were conflicting attributes in the request"
+-msgstr "Existiam atributos em conflito no pedido"
+-
+-#: libgnomecups/gnome-cups-request.c:91
+-msgid "Compression is not supported"
+-msgstr "Compressão não é suportada"
+-
+-#: libgnomecups/gnome-cups-request.c:92
+-msgid "There was a compression error"
+-msgstr "Ocorreu um erro de compressão"
+-
+-#: libgnomecups/gnome-cups-request.c:93
+-msgid "There was an error in the format of the document"
+-msgstr "Ocorreu um erro no formato do documento"
+-
+-#: libgnomecups/gnome-cups-request.c:94
+-msgid "There was an error accessing the document"
+-msgstr "Ocorreu um erro ao acessar ao documento"
+-
+-#: libgnomecups/gnome-cups-request.c:95
+-msgid "Some attributes could not be set"
+-msgstr "Alguns atributos não puderam ser definidos"
+-
+-#: libgnomecups/gnome-cups-request.c:96
+-msgid "All subscriptions were ignored"
+-msgstr "Todas as subscrições foram ignoradas"
+-
+-#: libgnomecups/gnome-cups-request.c:97
+-msgid "Too many subscriptions"
+-msgstr "Muitas subscrições"
+-
+-#: libgnomecups/gnome-cups-request.c:98
+-msgid "All notifications were ignored."
+-msgstr "Todas as notificações foram ignoradas."
+-
+-#: libgnomecups/gnome-cups-request.c:99
+-msgid "A print support file was not found."
+-msgstr "Não foi encontrado um arquivo de suporte a impressão."
+-
+-#: libgnomecups/gnome-cups-request.c:104
+-msgid "Internal server error"
+-msgstr "Erro interno de servidor"
+-
+-#: libgnomecups/gnome-cups-request.c:105
+-msgid "Operation not supported"
+-msgstr "Operação não suportada"
+-
+-#: libgnomecups/gnome-cups-request.c:106
+-msgid "Service unavailable"
+-msgstr "Serviço não disponível"
+-
+-#: libgnomecups/gnome-cups-request.c:107
+-msgid "Version not supported"
+-msgstr "Versão não suportada"
+-
+-#: libgnomecups/gnome-cups-request.c:108
+-msgid "Device error"
+-msgstr "Erro de dispositivo"
+-
+-#: libgnomecups/gnome-cups-request.c:109
+-msgid "Temporary error"
+-msgstr "Erro temporário"
+-
+-#: libgnomecups/gnome-cups-request.c:110
+-msgid "The printer is not accepting jobs"
+-msgstr "A impressora não está aceitando trabalhos"
+-
+-#: libgnomecups/gnome-cups-request.c:111
+-msgid "The printer is busy"
+-msgstr "A impressora está ocupada"
+-
+-#: libgnomecups/gnome-cups-request.c:112
+-msgid "The job has been canceled"
+-msgstr "O trabalho foi cancelado"
+-
+-#: libgnomecups/gnome-cups-request.c:113
+-msgid "Multiple-document jobs are not supported"
+-msgstr "Trabalhos multi-documento não são suportados"
+-
+-#: libgnomecups/gnome-cups-request.c:114
+-msgid "The printer is deactivated"
+-msgstr "A impressora está desativada"
+-
+-#: libgnomecups/gnome-cups-request.c:119
+-msgid "Redirected to another site"
+-msgstr "Redirecionado para outro servidor"
+-
+-#: libgnomecups/gnome-cups-request.c:125
+-msgid "Unknown error"
+-msgstr "Erro desconhecido"
++#~ msgid "Success"
++#~ msgstr "Sucesso"
++
++#~ msgid "Success, some attributes were ignored"
++#~ msgstr "Sucesso, alguns atributos foram ignorados"
++
++#~ msgid "Success, some attributes conflicted"
++#~ msgstr "Sucesso, alguns atributos em conflito"
++
++#~ msgid "Success, ignored subscriptions"
++#~ msgstr "Sucesso, subscrições ignoradas"
++
++#~ msgid "Success, ignored notifications"
++#~ msgstr "Sucesso, notificações ignoradas"
++
++#~ msgid "Success, too many events"
++#~ msgstr "Sucesso, muitos eventos"
++
++#~ msgid "Success, cancel subscription"
++#~ msgstr "Sucesso, subscrição cancelada"
++
++#~ msgid "Bad request"
++#~ msgstr "Pedido inválido"
++
++#~ msgid "Forbidden"
++#~ msgstr "Proibido"
++
++#~ msgid "The client has not been authenticated"
++#~ msgstr "O cliente não foi autenticado"
++
++#~ msgid "You are not authorized to perform this operation"
++#~ msgstr "Você não está autorizado a efetuar esta operação"
++
++#~ msgid "This operation cannot be completed"
++#~ msgstr "Esta operação não pode ser terminada"
++
++#~ msgid "Timeout"
++#~ msgstr "Tempo expirado"
++
++#~ msgid "The requested file was not found"
++#~ msgstr "O arquivo requisitado não foi encontrado"
++
++#~ msgid "The requested resource no longer exists"
++#~ msgstr "A origem pedida já não existe"
++
++#~ msgid "The request was too large"
++#~ msgstr "O pedido era muito grande"
++
++#~ msgid "The request was too long"
++#~ msgstr "O pedido era muito longo"
++
++#~ msgid "The document format is not supported"
++#~ msgstr "O formato do documento não é suportado"
++
++#~ msgid "The value or attributes in this request are not supported"
++#~ msgstr "Os valores ou atributos neste pedido não são suportados"
++
++#~ msgid "The URI scheme is not supported"
++#~ msgstr "O esquema de URI não é suportado"
++
++#~ msgid "The requested character set is not supported"
++#~ msgstr "O conjunto de caracteres pedido não é suportado"
++
++#~ msgid "There were conflicting attributes in the request"
++#~ msgstr "Existiam atributos em conflito no pedido"
++
++#~ msgid "Compression is not supported"
++#~ msgstr "Compressão não é suportada"
++
++#~ msgid "There was a compression error"
++#~ msgstr "Ocorreu um erro de compressão"
++
++#~ msgid "There was an error in the format of the document"
++#~ msgstr "Ocorreu um erro no formato do documento"
++
++#~ msgid "There was an error accessing the document"
++#~ msgstr "Ocorreu um erro ao acessar ao documento"
++
++#~ msgid "Some attributes could not be set"
++#~ msgstr "Alguns atributos não puderam ser definidos"
++
++#~ msgid "All subscriptions were ignored"
++#~ msgstr "Todas as subscrições foram ignoradas"
++
++#~ msgid "Too many subscriptions"
++#~ msgstr "Muitas subscrições"
++
++#~ msgid "All notifications were ignored."
++#~ msgstr "Todas as notificações foram ignoradas."
++
++#~ msgid "A print support file was not found."
++#~ msgstr "Não foi encontrado um arquivo de suporte a impressão."
++
++#~ msgid "Internal server error"
++#~ msgstr "Erro interno de servidor"
++
++#~ msgid "Operation not supported"
++#~ msgstr "Operação não suportada"
++
++#~ msgid "Service unavailable"
++#~ msgstr "Serviço não disponível"
++
++#~ msgid "Version not supported"
++#~ msgstr "Versão não suportada"
++
++#~ msgid "Device error"
++#~ msgstr "Erro de dispositivo"
++
++#~ msgid "Temporary error"
++#~ msgstr "Erro temporário"
++
++#~ msgid "The printer is not accepting jobs"
++#~ msgstr "A impressora não está aceitando trabalhos"
++
++#~ msgid "The printer is busy"
++#~ msgstr "A impressora está ocupada"
++
++#~ msgid "The job has been canceled"
++#~ msgstr "O trabalho foi cancelado"
++
++#~ msgid "Multiple-document jobs are not supported"
++#~ msgstr "Trabalhos multi-documento não são suportados"
++
++#~ msgid "The printer is deactivated"
++#~ msgstr "A impressora está desativada"
++
++#~ msgid "Redirected to another site"
++#~ msgstr "Redirecionado para outro servidor"
++
++#~ msgid "Unknown error"
++#~ msgstr "Erro desconhecido"
+--- libgnomecups-0.2.3/po/ru.po	1970-01-01 05:30:00.000000000 +0530
++++ libgnomecups-0.2.3/po/ru.po	2010-07-20 12:23:43.289919689 +0530
+@@ -0,0 +1,68 @@ 
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++# Yulia <ypoyarko@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: ru\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
++"PO-Revision-Date: 2010-04-08 16:44+1000\n"
++"Last-Translator: Yulia <ypoyarko@redhat.com>\n"
++"Language-Team: Russian\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
++
++#: ../libgnomecups/gnome-cups-printer.c:93
++msgid "Ready"
++msgstr "Готово"
++
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
++msgid "Printing"
++msgstr "Печать"
++
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
++msgid "Paused"
++msgstr "Приостановлено"
++
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
++msgid "Unknown"
++msgstr "Неизвестно"
++
++#: ../libgnomecups/gnome-cups-printer.c:1202
++#, c-format
++msgid "%s: %s"
++msgstr "%s: %s"
++
++#: ../libgnomecups/gnome-cups-queue.c:43
++msgid "Pending"
++msgstr "Ожидание"
++
++#: ../libgnomecups/gnome-cups-queue.c:46
++msgid "Stopped"
++msgstr "Остановлено"
++
++#: ../libgnomecups/gnome-cups-queue.c:47
++msgid "Canceled"
++msgstr "Отменено"
++
++#: ../libgnomecups/gnome-cups-queue.c:48
++msgid "Aborted"
++msgstr "Прервано"
++
++#: ../libgnomecups/gnome-cups-queue.c:49
++msgid "Completed"
++msgstr "Завершено"
++
+--- libgnomecups-0.2.3/po/ta.po	1970-01-01 05:30:00.000000000 +0530
++++ libgnomecups-0.2.3/po/ta.po	2010-07-20 12:23:43.289919689 +0530
+@@ -0,0 +1,67 @@ 
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: el 6\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
++"PO-Revision-Date: 2010-04-07 04:54+0530\n"
++"Last-Translator: \n"
++"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: Lokalize 1.0\n"
++"Plural-Forms: nplurals=2; plural=n != 1;\n"
++
++#: ../libgnomecups/gnome-cups-printer.c:93
++msgid "Ready"
++msgstr "தயார்"
++
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
++msgid "Printing"
++msgstr "அச்சிடுகிறது"
++
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
++msgid "Paused"
++msgstr "இடைநிறுத்தப்பட்டது"
++
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
++msgid "Unknown"
++msgstr "தெரியாத"
++
++#: ../libgnomecups/gnome-cups-printer.c:1202
++#, c-format
++msgid "%s: %s"
++msgstr "%s: %s"
++
++#: ../libgnomecups/gnome-cups-queue.c:43
++msgid "Pending"
++msgstr "கிடப்பில்"
++
++#: ../libgnomecups/gnome-cups-queue.c:46
++msgid "Stopped"
++msgstr "நிறுத்தப்பட்டது"
++
++#: ../libgnomecups/gnome-cups-queue.c:47
++msgid "Canceled"
++msgstr "ரத்துசெய்யப்பட்டது"
++
++#: ../libgnomecups/gnome-cups-queue.c:48
++msgid "Aborted"
++msgstr "விலக்கப்பட்டது"
++
++#: ../libgnomecups/gnome-cups-queue.c:49
++msgid "Completed"
++msgstr "முடிக்கப்பட்டது"
++
+--- libgnomecups-0.2.3/po/te.po	1970-01-01 05:30:00.000000000 +0530
++++ libgnomecups-0.2.3/po/te.po	2010-07-20 12:23:43.289919689 +0530
+@@ -0,0 +1,68 @@ 
++# translation of libgnomecups.po.master.te.po to Telugu
++# Telugu translation of libgnomecups.
++# Copyright (C) 2009 libgnomecups's COPYRIGHT HOLDER
++# This file is distributed under the same license as the libgnomecups package.
++#
++# Krishna Babu K <kkrothap@redhat.com>, 2009.
++msgid ""
++msgstr ""
++"Project-Id-Version: libgnomecups.po.master.te\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
++"PO-Revision-Date: 2009-06-12 14:41+0530\n"
++"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
++"Language-Team: Telugu <en@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms: nplurals=2; plural=(n!=1);\n"
++"\n"
++
++#: ../libgnomecups/gnome-cups-printer.c:93
++msgid "Ready"
++msgstr "సిద్ధము"
++
++#: ../libgnomecups/gnome-cups-printer.c:94
++#: ../libgnomecups/gnome-cups-queue.c:45
++msgid "Printing"
++msgstr "ముద్రణ"
++
++#: ../libgnomecups/gnome-cups-printer.c:95
++#: ../libgnomecups/gnome-cups-queue.c:44
++msgid "Paused"
++msgstr "నిలిపివేయబడింది"
++
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
++msgid "Unknown"
++msgstr "తెలియని"
++
++#: ../libgnomecups/gnome-cups-printer.c:1202
++#, c-format
++msgid "%s: %s"
++msgstr "%s: %s"
++
++#: ../libgnomecups/gnome-cups-queue.c:43
++msgid "Pending"
++msgstr "వాయిదావేయబడింది"
++
++#: ../libgnomecups/gnome-cups-queue.c:46
++msgid "Stopped"
++msgstr "ఆపివేయబడింది"
++
++#: ../libgnomecups/gnome-cups-queue.c:47
++msgid "Canceled"
++msgstr "రద్దుచేయబడింది"
++
++#: ../libgnomecups/gnome-cups-queue.c:48
++msgid "Aborted"
++msgstr "విరమించబడింది"
++
++#: ../libgnomecups/gnome-cups-queue.c:49
++msgid "Completed"
++msgstr "పూర్తైంది"
+--- libgnomecups-0.2.3/po/zh_CN.po	2010-07-20 12:21:23.689970340 +0530
++++ libgnomecups-0.2.3/po/zh_CN.po	2010-07-20 12:23:43.625919688 +0530
+@@ -9,7 +9,7 @@ 
+ msgstr ""
+ "Project-Id-Version: libgnomecups.HEAD\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2005-07-10 18:39+0800\n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
+ "PO-Revision-Date: 2004-01-14 16:55+0000\n"
+ "Last-Translator: iceco <rainflymoon@163.com>\n"
+ "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+@@ -18,22 +18,22 @@ 
+ "Content-Transfer-Encoding: 8bit\n"
+ "X-Generator: KBabel 1.0.1\n"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:88
++#: ../libgnomecups/gnome-cups-printer.c:93
+ msgid "Ready"
+ msgstr "就绪"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:89
++#: ../libgnomecups/gnome-cups-printer.c:94
+ #: ../libgnomecups/gnome-cups-queue.c:45
+ msgid "Printing"
+ msgstr "打印中"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:90
++#: ../libgnomecups/gnome-cups-printer.c:95
+ #: ../libgnomecups/gnome-cups-queue.c:44
+ msgid "Paused"
+ msgstr "已暂停"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:1024
+-#: ../libgnomecups/gnome-cups-printer.c:1036
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
+ #: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+ #: ../libgnomecups/gnome-cups-queue.c:42
+ #: ../libgnomecups/gnome-cups-queue.c:182
+@@ -41,7 +41,7 @@ 
+ msgid "Unknown"
+ msgstr "未知"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:1043
++#: ../libgnomecups/gnome-cups-printer.c:1202
+ #, c-format
+ msgid "%s: %s"
+ msgstr "%s：%s"
+--- libgnomecups-0.2.3/po/zh_TW.po	2010-07-20 12:21:23.709051065 +0530
++++ libgnomecups-0.2.3/po/zh_TW.po	2010-07-20 12:23:43.961919672 +0530
+@@ -9,7 +9,7 @@ 
+ msgstr ""
+ "Project-Id-Version: Libgnomecups 0.2.3\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2006-09-04 01:10+0800\n"
++"POT-Creation-Date: 2010-03-29 14:27+0530\n"
+ "PO-Revision-Date: 2006-09-04 01:12+0800\n"
+ "Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
+ "Language-Team: Chinese (traditional) <community@linuxhall.org>\n"
+@@ -18,24 +18,24 @@ 
+ "Content-Transfer-Encoding: 8bit\n"
+ 
+ # Novell Translation
+-#: ../libgnomecups/gnome-cups-printer.c:89
++#: ../libgnomecups/gnome-cups-printer.c:93
+ msgid "Ready"
+ msgstr "就緒"
+ 
+ # Novell Translation
+-#: ../libgnomecups/gnome-cups-printer.c:90
++#: ../libgnomecups/gnome-cups-printer.c:94
+ #: ../libgnomecups/gnome-cups-queue.c:45
+ msgid "Printing"
+ msgstr "正在列印"
+ 
+ # Novell Translation
+-#: ../libgnomecups/gnome-cups-printer.c:91
++#: ../libgnomecups/gnome-cups-printer.c:95
+ #: ../libgnomecups/gnome-cups-queue.c:44
+ msgid "Paused"
+ msgstr "已暫停"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:1078
+-#: ../libgnomecups/gnome-cups-printer.c:1090
++#: ../libgnomecups/gnome-cups-printer.c:1183
++#: ../libgnomecups/gnome-cups-printer.c:1195
+ #: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+ #: ../libgnomecups/gnome-cups-queue.c:42
+ #: ../libgnomecups/gnome-cups-queue.c:182
+@@ -43,7 +43,7 @@ 
+ msgid "Unknown"
+ msgstr "未知"
+ 
+-#: ../libgnomecups/gnome-cups-printer.c:1097
++#: ../libgnomecups/gnome-cups-printer.c:1202
+ #, c-format
+ msgid "%s: %s"
+ msgstr "%s: %s"

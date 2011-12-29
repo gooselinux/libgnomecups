@@ -1,0 +1,81 @@
+--- libgnomecups-0.2.3/configure.in
++++ libgnomecups-0.2.3/configure.in
+@@ -40,7 +40,7 @@ AC_SUBST(GETTEXT_PACKAGE)
+ AC_PROG_INTLTOOL([0.20])
+ 
+ dnl Add the languages which your application supports here.
+-ALL_LINGUAS="ar bg ca cs da de dz en_CA en_GB es eu fi fr gl gu hi hr hu is it ja lt mk nb ne nl oc pa pl pt pt_BR rw sk sl sq sr sr@Latn sv th tr uk vi wa zh_CN zh_HK zh_TW"
++ALL_LINGUAS="ar bg ca cs da de dz en_CA en_GB es eu fi fr gl gu hi hr hu is it ja lt mk mr nb ne nl oc pa pl pt pt_BR rw sk sl sq sr sr@Latn sv th tr uk vi wa zh_CN zh_HK zh_TW"
+ AM_GLIB_GNU_GETTEXT
+ AM_GLIB_DEFINE_LOCALEDIR([GNOMELOCALEDIR])
+ 
+--- /dev/null
++++ libgnomecups-0.2.3/po/mr.po
+@@ -0,0 +1,67 @@
++# translation of libgnomecups.HEAD.po to marathi
++# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the PACKAGE package.
++#
++# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
++msgid ""
++msgstr ""
++"Project-Id-Version: libgnomecups.HEAD\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2008-11-09 12:07+0000\n"
++"PO-Revision-Date: 2009-03-06 14:58+0530\n"
++"Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
++"Language-Team: marathi\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms: nplurals=2; plural=(n!=1);\n"
++
++#: ../libgnomecups/gnome-cups-printer.c:89
++msgid "Ready"
++msgstr "तयार"
++
++#: ../libgnomecups/gnome-cups-printer.c:90
++#: ../libgnomecups/gnome-cups-queue.c:45
++msgid "Printing"
++msgstr "छपाई"
++
++#: ../libgnomecups/gnome-cups-printer.c:91
++#: ../libgnomecups/gnome-cups-queue.c:44
++msgid "Paused"
++msgstr "स्तब्ध"
++
++#: ../libgnomecups/gnome-cups-printer.c:1081
++#: ../libgnomecups/gnome-cups-printer.c:1093
++#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
++#: ../libgnomecups/gnome-cups-queue.c:42
++#: ../libgnomecups/gnome-cups-queue.c:182
++#: ../libgnomecups/gnome-cups-queue.c:185
++msgid "Unknown"
++msgstr "अपरिचीत"
++
++#: ../libgnomecups/gnome-cups-printer.c:1100
++#, c-format
++msgid "%s: %s"
++msgstr "%s: %s"
++
++#: ../libgnomecups/gnome-cups-queue.c:43
++msgid "Pending"
++msgstr "उर्वरीत"
++
++#: ../libgnomecups/gnome-cups-queue.c:46
++msgid "Stopped"
++msgstr "थांबवले"
++
++#: ../libgnomecups/gnome-cups-queue.c:47
++msgid "Canceled"
++msgstr "रद्द केले"
++
++#: ../libgnomecups/gnome-cups-queue.c:48
++msgid "Aborted"
++msgstr "रद्द केले"
++
++#: ../libgnomecups/gnome-cups-queue.c:49
++msgid "Completed"
++msgstr "पूर्ण केले"
++
